@@ -1,7 +1,6 @@
 # Seleccion de personaje y nivel
 from typing import TypeVar, List
 from random import randint, choice
-import json
 
 # CHARACTER CLASSES
 BARBARIAN = 'barbarian'
@@ -56,20 +55,20 @@ CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
 
 class Character:
     def __init__(self, level: int = None, character_class: str = None) -> None:
-        self.level: int = self.ensure_level_is_on_valid_range(
+        self.level: int = self._ensure_level_is_on_valid_range(
             level) if level is not None else randint(1, 70)
 
-        self.character_class: str = self.ensure_character_class_is_implemented(
+        self.character_class: str = self._ensure_character_class_is_implemented(
             character_class or choice(game_classes()))
 
-    def ensure_level_is_on_valid_range(self, value: LEVEL) -> LEVEL:
+    def _ensure_level_is_on_valid_range(self, value: LEVEL) -> LEVEL:
         if (value < 1 or value > 70):
             raise ValueError(
                 f"The level {value} is not allowed, the system can handle levels between 1 and 70"
             )
         return value
 
-    def ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
+    def _ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
         if value not in game_classes():
             raise ValueError(
                 f"The character class {value} is not implemented on diablo 3")
@@ -96,7 +95,25 @@ def game_classes() -> List[str]:
 
 
 def start_loot(character: Character, origin: str):
-    pass
+    selected_pool: dict = build_pool_based_on_origin(origin)
+
+    print(selected_pool)
 
 
-print(vars(Character(level=18, character_class=MONK)))
+def build_pool_based_on_origin(origin: str) -> dict:
+    translated_origin: list[str] = origin.upper().split('.')
+    pool_template: dict = AVAILABLE_POOLS.copy()
+
+    for key in translated_origin:
+        if key in pool_template:
+            pool_template = pool_template[key]
+        else:
+            raise KeyError(
+                f"The access key {key} does not exists in the available pools for the value {origin}")
+
+    return pool_template
+
+
+monk = Character(level=18, character_class=MONK)
+
+start_loot(monk, 'chest.normal')
