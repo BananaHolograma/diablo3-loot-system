@@ -1,0 +1,22 @@
+[
+  {
+    "quantity": 1,
+    "type": "equipment:helm",
+    "name": "normal helm",
+    "weight": 1,
+    "drop": {
+      "chance": 35,
+      "max_chance": 45
+    }
+  },
+  {
+    "quantity": 1,
+    "type": "equipment:one-handed-sword",
+    "name": "sword of pytagoras",
+    "weight": 2,
+    "drop": {
+      "chance": 28.5,
+      "max_chance": 34.5
+    }
+  }
+]

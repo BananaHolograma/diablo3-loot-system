@@ -1,6 +1,7 @@
 # Seleccion de personaje y nivel
 from typing import TypeVar, List
 from random import randint, choice
+import json
 
 # CHARACTER CLASSES
 BARBARIAN = 'barbarian'
@@ -16,38 +17,9 @@ CHEST = 'CHEST'
 ENEMY = 'ENEMY'
 MAP_EVENT = 'EVENT'
 
-AVAILABLE_POOLS = {
-    CHEST: {
-        "NORMAL": {
-            "rolls": {
-                "min": 1, "max": 6
-            },
-            "entries": [{
-                "quantity": 1,
-                "type": "equipment:helm",
-                "name": "normal helm",
-                "weight": 1,
-                "drop_chance": 35
-            }, {
-                "quantity": 1,
-                "type": "equipment:one-handed-sword",
-                "name": "sword of pytagoras",
-                "weight": 2,
-                "drop_chance": 35
-            }]
-        },
-        "BEAMING": {
-            "rolls": {
-                "min": 6, "max": 12
-            },
-        },
-        "DIABOLIC": {
-            "rolls": {
-                "min": 10, "max": 15
-            },
-        }
-    }
-}
+with open('loot_table.json', 'r') as loot_table_file:
+    AVAILABLE_POOLS = json.load(loot_table_file)
+
 
 LEVEL = TypeVar('LEVEL')
 CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
@@ -95,12 +67,12 @@ def game_classes() -> List[str]:
 
 
 def start_loot(character: Character, origin: str):
-    selected_pool: dict = build_pool_based_on_origin(origin)
+    selected_pool: dict = build_pool(character, origin)
 
     print(selected_pool)
 
 
-def build_pool_based_on_origin(origin: str) -> dict:
+def build_pool(character: Character, origin: str) -> dict:
     translated_origin: list[str] = origin.upper().split('.')
     pool_template: dict = AVAILABLE_POOLS.copy()
 

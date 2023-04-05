@@ -1,0 +1,25 @@
+{
+  "CHEST": {
+    "NORMAL": {
+      "rolls": {
+        "min": 1,
+        "max": 6
+      },
+      "entries": []
+    },
+    "BEAMING": {
+      "rolls": {
+        "min": 6,
+        "max": 12
+      },
+      "entries": []
+    },
+    "DIABOLIC": {
+      "rolls": {
+        "min": 10,
+        "max": 15
+      },
+      "entries": []
+    }
+  }
+}
