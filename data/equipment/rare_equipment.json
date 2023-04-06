@@ -6,8 +6,8 @@
     "name": "rare barbarian helm",
     "weight": 1,
     "drop": {
-      "chance": 35,
-      "max_chance": 45
+      "chance": 0.35,
+      "max_chance": 0.45
     }
   },
   {
@@ -17,8 +17,8 @@
     "name": "sword of pytagoras",
     "weight": 2,
     "drop": {
-      "chance": 28.5,
-      "max_chance": 34.5
+      "chance": 0.285,
+      "max_chance": 0.345
     }
   },
   {
@@ -28,8 +28,8 @@
     "name": "yellow armor of the excalibur",
     "weight": 1,
     "drop": {
-      "chance": 25,
-      "max_chance": 31
+      "chance": 0.25,
+      "max_chance": 0.31
     }
   },
   {
@@ -39,8 +39,8 @@
     "name": "butcher hook low profile",
     "weight": 1.5,
     "drop": {
-      "chance": 30,
-      "max_chance": 36
+      "chance": 0.3,
+      "max_chance": 0.36
     }
   }
 ]

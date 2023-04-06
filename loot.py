@@ -1,6 +1,6 @@
 # Seleccion de personaje y nivel
 from typing import TypeVar, List, Dict
-from random import randint, choice
+from random import randint, choice, random
 import json
 
 # CHARACTER CLASSES
@@ -61,7 +61,7 @@ AVAILABLE_POOLS['CHEST']['NORMAL']['entries'] = NORMAL_EQUIPMENT.copy(
 ) + get_random_elements_from_entries(MAGIC_EQUIPMENT, randint(2, 4)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(1, 2))
 AVAILABLE_POOLS['CHEST']['BEAMING']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 3)) + \
     RARE_EQUIPMENT.copy()
-AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entries(RARE_EQUIPMENT, randint(2, 4)) + \
+AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 2)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(2, 4)) + \
     LEGENDARY_EQUIPMENT.copy()
 
 
@@ -106,10 +106,39 @@ def game_classes() -> List[str]:
 """
 
 
-def start_loot(character: Character, origin: str):
+def choose_items_with_weight_calculation(pool: Dict) -> List[Dict]:
+    number_of_rolls = randint(pool['rolls']['min'], pool['rolls']['max']) + 1
+    total_weight = sum([entry['weight'] for entry in pool['entries']])
+    result = []
+
+    for _ in range(0, number_of_rolls):
+        for item in pool['entries']:
+            probability = item['weight'] / total_weight
+
+            # ¿quitar de la lista para evitar duplicados, o generar duplicados a proposito?
+            if random() <= probability:
+                result.append(item)
+
+    return result
+
+
+def apply_drop_chance(items: List[Dict]) -> List[Dict]:
+    result = []
+
+    for item in items:
+        if random() <= item['drop']['chance']:
+            result.append(item)
+
+    return result
+
+
+def start_loot(character: Character, origin: str) -> List[Dict]:
     selected_pool: dict = build_pool(character, origin)
 
-    print(json.dumps(selected_pool, indent=4))
+    selected_items = choose_items_with_weight_calculation(selected_pool)
+    dropped_items = apply_drop_chance(selected_items)
+
+    return dropped_items
 
 
 def build_pool(character: Character, origin: str) -> dict:
@@ -128,4 +157,4 @@ def build_pool(character: Character, origin: str) -> dict:
 
 monk = Character(level=18, character_class=MONK)
 
-start_loot(monk, 'chest.beaming')
+looted = start_loot(monk, 'chest.diabolic')

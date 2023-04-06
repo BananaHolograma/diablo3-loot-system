@@ -6,8 +6,8 @@
     "name": "orb of the spinal skeleton",
     "weight": 1.5,
     "drop": {
-      "chance": 0.8,
-      "max_chance": 1.3
+      "chance": 0.08,
+      "max_chance": 0.13
     }
   },
   {
@@ -17,8 +17,8 @@
     "name": "sword of the demon hunter dick",
     "weight": 1,
     "drop": {
-      "chance": 1,
-      "max_chance": 1.5
+      "chance": 0.1,
+      "max_chance": 0.15
     }
   },
   {
@@ -28,8 +28,8 @@
     "name": "the exarian",
     "weight": 0.5,
     "drop": {
-      "chance": 0.5,
-      "max_chance": 1.1
+      "chance": 0.05,
+      "max_chance": 0.11
     }
   },
   {
@@ -39,8 +39,8 @@
     "name": "dark bulletproof",
     "weight": 0.9,
     "drop": {
-      "chance": 3,
-      "max_chance": 4.2
+      "chance": 0.03,
+      "max_chance": 0.042
     }
   }
 ]

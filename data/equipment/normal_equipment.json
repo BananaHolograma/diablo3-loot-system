@@ -6,8 +6,8 @@
     "name": "sandalias del zara",
     "weight": 3,
     "drop": {
-      "chance": 55,
-      "max_chance": 67
+      "chance": 0.55,
+      "max_chance": 0.67
     }
   },
   {
@@ -17,8 +17,8 @@
     "name": "dick of the prick",
     "weight": 4,
     "drop": {
-      "chance": 67,
-      "max_chance": 74
+      "chance": 0.67,
+      "max_chance": 0.74
     }
   },
   {
@@ -28,8 +28,8 @@
     "name": "The barbarian normal sword",
     "weight": 2.5,
     "drop": {
-      "chance": 50,
-      "max_chance": 65
+      "chance": 0.5,
+      "max_chance": 0.65
     }
   },
   {
@@ -39,8 +39,8 @@
     "name": "non bulletproof",
     "weight": 2,
     "drop": {
-      "chance": 70,
-      "max_chance": 82
+      "chance": 0.71,
+      "max_chance": 0.82
     }
   }
 ]
