@@ -1,6 +1,6 @@
 # Seleccion de personaje y nivel
 from typing import TypeVar, List, Dict
-from random import randint, choice, random
+from random import randint, choice, random, shuffle
 import json
 
 # CHARACTER CLASSES
@@ -11,6 +11,11 @@ WITCH_DOCTOR = 'witch doctor'
 DEMON_HUNTER = 'demon hunter'
 CRUSADER = 'crusader'
 MONK = 'monk'
+
+GAME_CLASSES = [
+    BARBARIAN, WIZARD, NECROMANCER, WITCH_DOCTOR, DEMON_HUNTER, CRUSADER,
+    MONK
+]
 
 # ORIGINS FOR POOL
 CHEST = 'CHEST'
@@ -38,6 +43,7 @@ CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
 
 def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
     max_entries = len(entries)
+
     if amount < 0:
         raise ValueError(
             "The value for parameter amount must be greater than zero")
@@ -47,14 +53,9 @@ def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[D
 
     else:
         safe_entries = entries.copy()
-        result = []
+        shuffle(safe_entries)
 
-        for _ in range(0, amount + 1 if amount == 1 else amount):
-            selection = choice(safe_entries)
-            result.append(selection)
-            safe_entries.remove(selection)
-
-        return result
+        return safe_entries[:amount]
 
 
 AVAILABLE_POOLS['CHEST']['NORMAL']['entries'] = NORMAL_EQUIPMENT.copy(
@@ -71,7 +72,7 @@ class Character:
             level) if level is not None else randint(1, 70)
 
         self.character_class: str = self._ensure_character_class_is_implemented(
-            character_class or choice(game_classes()))
+            character_class or choice(GAME_CLASSES))
 
     def _ensure_level_is_on_valid_range(self, value: LEVEL) -> LEVEL:
         if (value < 1 or value > 70):
@@ -81,18 +82,11 @@ class Character:
         return value
 
     def _ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
-        if value not in game_classes():
+        if value not in GAME_CLASSES:
             raise ValueError(
                 f"The character class {value} is not implemented on diablo 3")
 
         return value
-
-
-def game_classes() -> List[str]:
-    return [
-        BARBARIAN, WIZARD, NECROMANCER, WITCH_DOCTOR, DEMON_HUNTER, CRUSADER,
-        MONK
-    ]
 
 
 """
@@ -158,3 +152,5 @@ def build_pool(character: Character, origin: str) -> dict:
 monk = Character(level=18, character_class=MONK)
 
 looted = start_loot(monk, 'chest.diabolic')
+
+print(json.dumps(looted, indent=4))
