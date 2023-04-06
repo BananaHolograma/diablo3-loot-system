@@ -1,9 +1,9 @@
 [
   {
     "quantity": 1,
-    "rarity": "legendary",
-    "type": "equipment:orb",
-    "name": "orb of the spinal skeleton",
+    "rarity": "magic",
+    "type": "equipment:boots",
+    "name": "magic elf boots",
     "weight": 1.5,
     "drop": {
       "chance": 0.8,
@@ -12,9 +12,9 @@
   },
   {
     "quantity": 1,
-    "rarity": "legendary",
+    "rarity": "magic",
     "type": "equipment:one-handed-sword",
-    "name": "sword of the demon hunter dick",
+    "name": "the wander of harry",
     "weight": 1,
     "drop": {
       "chance": 1,
@@ -23,9 +23,9 @@
   },
   {
     "quantity": 1,
-    "rarity": "legendary",
+    "rarity": "magic",
     "type": "equipment:two-handed-sword",
-    "name": "the exarian",
+    "name": "the square circle dagger",
     "weight": 0.5,
     "drop": {
       "chance": 0.5,
@@ -34,9 +34,9 @@
   },
   {
     "quantity": 1,
-    "rarity": "legendary",
+    "rarity": "magic",
     "type": "equipment:armor",
-    "name": "dark bulletproof",
+    "name": "farmer coat",
     "weight": 0.9,
     "drop": {
       "chance": 3,

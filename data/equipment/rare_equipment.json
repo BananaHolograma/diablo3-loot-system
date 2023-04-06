@@ -1,8 +1,9 @@
 [
   {
     "quantity": 1,
+    "rarity": "rare",
     "type": "equipment:helm",
-    "name": "normal helm",
+    "name": "rare barbarian helm",
     "weight": 1,
     "drop": {
       "chance": 35,
@@ -11,12 +12,35 @@
   },
   {
     "quantity": 1,
+    "rarity": "rare",
     "type": "equipment:one-handed-sword",
     "name": "sword of pytagoras",
     "weight": 2,
     "drop": {
       "chance": 28.5,
       "max_chance": 34.5
+    }
+  },
+  {
+    "quantity": 1,
+    "rarity": "rare",
+    "type": "equipment:armor",
+    "name": "yellow armor of the excalibur",
+    "weight": 1,
+    "drop": {
+      "chance": 25,
+      "max_chance": 31
+    }
+  },
+  {
+    "quantity": 1,
+    "rarity": "rare",
+    "type": "equipment:two-handed-sword",
+    "name": "butcher hook low profile",
+    "weight": 1.5,
+    "drop": {
+      "chance": 30,
+      "max_chance": 36
     }
   }
 ]

@@ -1,0 +1,46 @@
+[
+  {
+    "quantity": 1,
+    "rarity": "normal",
+    "type": "equipment:foot",
+    "name": "sandalias del zara",
+    "weight": 3,
+    "drop": {
+      "chance": 55,
+      "max_chance": 67
+    }
+  },
+  {
+    "quantity": 1,
+    "rarity": "normal",
+    "type": "equipment:one-handed-sword",
+    "name": "dick of the prick",
+    "weight": 4,
+    "drop": {
+      "chance": 67,
+      "max_chance": 74
+    }
+  },
+  {
+    "quantity": 1,
+    "rarity": "normal",
+    "type": "equipment:two-handed-sword",
+    "name": "The barbarian normal sword",
+    "weight": 2.5,
+    "drop": {
+      "chance": 50,
+      "max_chance": 65
+    }
+  },
+  {
+    "quantity": 1,
+    "rarity": "normal",
+    "type": "equipment:armor",
+    "name": "non bulletproof",
+    "weight": 2,
+    "drop": {
+      "chance": 70,
+      "max_chance": 82
+    }
+  }
+]

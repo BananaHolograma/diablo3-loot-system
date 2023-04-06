@@ -1,5 +1,5 @@
 # Seleccion de personaje y nivel
-from typing import TypeVar, List
+from typing import TypeVar, List, Dict
 from random import randint, choice
 import json
 
@@ -17,12 +17,52 @@ CHEST = 'CHEST'
 ENEMY = 'ENEMY'
 MAP_EVENT = 'EVENT'
 
-with open('loot_table.json', 'r') as loot_table_file:
-    AVAILABLE_POOLS = json.load(loot_table_file)
+with open('data/loot_table.json', 'r') as loot_table:
+    AVAILABLE_POOLS = json.load(loot_table)
 
+with open('data/equipment/legendary_equipment.json', 'r') as legendary_equipment:
+    LEGENDARY_EQUIPMENT = json.load(legendary_equipment)
+
+with open('data/equipment/rare_equipment.json', 'r') as rare_equipment:
+    RARE_EQUIPMENT = json.load(rare_equipment)
+
+with open('data/equipment/magic_equipment.json', 'r') as magic_equipment:
+    MAGIC_EQUIPMENT = json.load(magic_equipment)
+
+with open('data/equipment/normal_equipment.json', 'r') as normal_equipment:
+    NORMAL_EQUIPMENT = json.load(normal_equipment)
 
 LEVEL = TypeVar('LEVEL')
 CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
+
+
+def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
+    max_entries = len(entries)
+    if amount < 0:
+        raise ValueError(
+            "The value for parameter amount must be greater than zero")
+    elif amount > max_entries:
+        raise ValueError(
+            f"The amount {amount} is more than the total items on the list {max_entries}")
+
+    else:
+        safe_entries = entries.copy()
+        result = []
+
+        for _ in range(0, amount + 1 if amount == 1 else amount):
+            selection = choice(safe_entries)
+            result.append(selection)
+            safe_entries.remove(selection)
+
+        return result
+
+
+AVAILABLE_POOLS['CHEST']['NORMAL']['entries'] = NORMAL_EQUIPMENT.copy(
+) + get_random_elements_from_entries(MAGIC_EQUIPMENT, randint(2, 4)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(1, 2))
+AVAILABLE_POOLS['CHEST']['BEAMING']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 3)) + \
+    RARE_EQUIPMENT.copy()
+AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entries(RARE_EQUIPMENT, randint(2, 4)) + \
+    LEGENDARY_EQUIPMENT.copy()
 
 
 class Character:
@@ -69,7 +109,7 @@ def game_classes() -> List[str]:
 def start_loot(character: Character, origin: str):
     selected_pool: dict = build_pool(character, origin)
 
-    print(selected_pool)
+    print(json.dumps(selected_pool, indent=4))
 
 
 def build_pool(character: Character, origin: str) -> dict:
@@ -88,4 +128,4 @@ def build_pool(character: Character, origin: str) -> dict:
 
 monk = Character(level=18, character_class=MONK)
 
-start_loot(monk, 'chest.normal')
+start_loot(monk, 'chest.beaming')
