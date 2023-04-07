@@ -1,0 +1,17 @@
+{
+  "NORMAL": {
+    "TYPES": ["AMETHYST", "DIAMOND", "EMERALD", "RUBY", "TOPAZ"],
+    "CATEGORY": [
+      "FLAWLESS",
+      "SQUARE",
+      "FLAWLESS SQUARE",
+      "STAR",
+      "IMPERIAL",
+      "MARQUISE",
+      "FLAWLESS IMPERIAL",
+      "ROYAL",
+      "FLAWLESS ROYAL"
+    ]
+  },
+  "LEGENDARY": null
+}

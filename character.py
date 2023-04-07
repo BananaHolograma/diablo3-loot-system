@@ -1,5 +1,5 @@
 from random import randint, choice
-from typing import TypeVar
+from typing import TypeVar, Annotated
 
 # CHARACTER CLASSES
 BARBARIAN = 'barbarian'
@@ -15,7 +15,6 @@ GAME_CLASSES = [
     MONK
 ]
 
-LEVEL = TypeVar('LEVEL')
 CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
 
 
@@ -27,7 +26,9 @@ class Character:
         self.character_class: str = self._ensure_character_class_is_implemented(
             character_class or choice(GAME_CLASSES))
 
-    def _ensure_level_is_on_valid_range(self, value: LEVEL) -> LEVEL:
+        self.gold: float = 0
+
+    def _ensure_level_is_on_valid_range(self, value: Annotated[int, lambda x: 1 <= x <= 70]) -> int:
         if (value < 1 or value > 70):
             raise ValueError(
                 f"The level {value} is not allowed, the system can handle levels between 1 and 70"

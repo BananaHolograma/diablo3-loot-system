@@ -1,6 +1,6 @@
 # Seleccion de personaje y nivel
 from typing import List, Dict, Annotated
-from random import randint, random, shuffle
+from random import randint, random, shuffle, choice
 import json
 from character import Character, MONK
 
@@ -23,6 +23,9 @@ with open('data/equipment/magic_equipment.json', 'r') as magic_equipment:
 
 with open('data/equipment/normal_equipment.json', 'r') as normal_equipment:
     NORMAL_EQUIPMENT = json.load(normal_equipment)
+
+with open('data/gems/gems.json', 'r') as gems:
+    GEMS = json.load(gems)
 
 
 def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
@@ -101,8 +104,33 @@ def start_loot(character: Character, origin: str) -> List[Dict]:
 
     selected_items = choose_items_with_weight_calculation(selected_pool)
     dropped_items = apply_drop_chance(selected_items, 0.05)
+    gold = randint(10, 200000)
+    gems = loot_gems(character)
 
-    return dropped_items
+    return {"items": dropped_items, "gold": gold, "gems": gems}
+
+
+def loot_gems(character: Character) -> List[Dict]:
+    looted_gems = []
+
+    if character.level >= 61:
+        enabled_categories = [
+            category for category in GEMS["NORMAL"]["CATEGORY"] if category in ['MARQUISE', 'IMPERIAL']]
+        for _ in range(1, randint(1, 6)):
+            random_type = choice(GEMS["NORMAL"]["TYPES"])
+            random_category = choice(enabled_categories)
+            looted_gems.append(
+                {"type": random_type, "category": random_category, "quantity": 1})
+    else:
+        enabled_categories = [
+            category for category in GEMS["NORMAL"]["CATEGORY"] if category in ['SQUARE', 'FLAWLESS SQUARE', 'STAR']]
+        for _ in range(1, randint(1, 3)):
+            random_type = choice(GEMS["NORMAL"]["TYPES"])
+            random_category = choice(enabled_categories)
+            looted_gems.append(
+                {"type": random_type, "category": random_category, "quantity": 1})
+
+    return looted_gems
 
 
 def build_pool(character: Character, origin: str) -> dict:
@@ -119,7 +147,7 @@ def build_pool(character: Character, origin: str) -> dict:
     return pool_template
 
 
-monk = Character(level=18, character_class=MONK)
+monk = Character(level=60, character_class=MONK)
 
 looted = start_loot(monk, 'chest.diabolic')
 
