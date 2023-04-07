@@ -1,6 +1,8 @@
 import requests
 import requests_cache
 import re
+from shutil import rmtree
+from random import uniform
 from json import dump, load, JSONDecodeError
 from os import makedirs, path
 from bs4 import BeautifulSoup
@@ -35,7 +37,9 @@ def extract_items_information(base_url: str, category: str):
                           "name": name,
                           "type": f"armor:{category}",
                           "rarity": rarity,
-                          "value_range": armor_range
+                          "stats_value_range": armor_range,
+                          "weight": generate_weight_based_on_rarity(rarity),
+                          "drop": generate_drop_chance_based_on_rarity(rarity)
                           }
 
             if rarity in result:
@@ -43,10 +47,10 @@ def extract_items_information(base_url: str, category: str):
             else:
                 result[rarity] = [item_build]
 
+        current_dir = path.dirname(path.abspath(__file__))
+        data_directory = path.join(current_dir, '..', 'data', 'equipment')
+
         for rarity in result.keys():
-            current_dir = path.dirname(path.abspath(__file__))
-            data_directory = path.join(current_dir, '..', 'data', 'equipment')
-            makedirs(data_directory, exist_ok=True)
             equipment_filename = f"{rarity}_equipment.json"
 
             if path.exists(f"{data_directory}/{equipment_filename}"):
@@ -104,6 +108,51 @@ def extract_item_armor_range(item: Tag, category: str) -> dict:
     return {"min": 0, "max": 0}
 
 
-for equipment in ['helm', 'pauldrons', 'chest-armor', 'bracers', 'gloves', 'belt', 'pants', 'boots', 'amulet', 'ring']:
-    print(f"Extracting data for {equipment}...")
-    extract_items_information(base_url, equipment)
+def generate_weight_based_on_rarity(rarity: str) -> float:
+    weight_table = {
+        "normal": {"min": 1, "max": 7},
+        "magic": {"min": 1, "max": 5},
+        "rare": {"min": 1, "max": 3},
+        "legendary": {"min": 1, "max": 3},
+        "character_set": {"min": 1, "max": 2.5},
+    }
+
+    if rarity in weight_table.keys():
+        return round(uniform(weight_table[rarity]["min"], weight_table[rarity]["max"]), 2)
+
+    return 0.0
+
+
+def generate_drop_chance_based_on_rarity(rarity: str) -> dict:
+    drop_chance_table = {
+        "normal": {"min": 0.45, "max": 0.7, "max_allowed_percentage": 0.20},
+        "magic": {"min": 0.35, "max": 0.45, "max_allowed_percentage": 0.15},
+        "rare": {"min": 0.25, "max": 0.3, "max_allowed_percentage": 0.10},
+        "legendary": {"min": 0.01, "max": 0.09, "max_allowed_percentage": 0.05},
+        "character_set":  {"min": 0.01, "max": 0.09, "max_allowed_percentage": 0.05},
+    }
+
+    if rarity in drop_chance_table.keys():
+        base_chance = uniform(
+            drop_chance_table[rarity]["min"], drop_chance_table[rarity]["max"])
+
+        return {"chance": base_chance, "max_chance": base_chance + (base_chance * drop_chance_table[rarity]['max_allowed_percentage'])}
+
+    return {"chance": 0, "max_chance": 0}
+
+
+def extract_equipment_information():
+    current_dir = path.dirname(path.abspath(__file__))
+    data_directory = path.join(current_dir, '..', 'data', 'equipment')
+
+    if path.exists(data_directory):
+        rmtree(data_directory)
+
+    makedirs(data_directory, exist_ok=True)
+
+    for equipment in ['helm', 'pauldrons', 'chest-armor', 'bracers', 'gloves', 'belt', 'pants', 'boots', 'amulet', 'ring']:
+        print(f"Extracting data for {equipment}...")
+        extract_items_information(base_url, equipment)
+
+
+extract_equipment_information()
