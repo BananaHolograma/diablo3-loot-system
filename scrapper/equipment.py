@@ -11,7 +11,7 @@ from bs4.element import Tag
 base_url: str = "https://us.diablo3.blizzard.com/en-us"
 
 requests_cache.install_cache(
-    cache_name='diablo3-cache', expire_after=3600)
+    backend='filesystem', serializer='json', cache_name='scrapper-cache', expire_after=3600)
 
 
 def extract_items_information(base_url: str, category: str):

@@ -1,1 +1,830 @@
-[{"quantity": 1, "name": "Mystery Helm", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.87, "drop": {"chance": 0.46338790318541995, "max_chance": 0.556065483822504}}, {"quantity": 1, "name": "Helm of the Cranial Crustacean", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 21, "max": 24}, "weight": 2.85, "drop": {"chance": 0.6297049689074437, "max_chance": 0.7556459626889324}}, {"quantity": 1, "name": "Star Helm", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 21, "max": 24}, "weight": 5.99, "drop": {"chance": 0.515821486360355, "max_chance": 0.618985783632426}}, {"quantity": 1, "name": "Leather Hood", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 21, "max": 24}, "weight": 1.07, "drop": {"chance": 0.5661309056996953, "max_chance": 0.6793570868396344}}, {"quantity": 1, "name": "Basinet", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 138, "max": 161}, "weight": 1.45, "drop": {"chance": 0.5122528369249804, "max_chance": 0.6147034043099764}}, {"quantity": 1, "name": "Stechhelm", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 270, "max": 284}, "weight": 3.2, "drop": {"chance": 0.6353175863579483, "max_chance": 0.762381103629538}}, {"quantity": 1, "name": "Zischagge", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 285, "max": 321}, "weight": 3.97, "drop": {"chance": 0.5523495942551903, "max_chance": 0.6628195131062283}}, {"quantity": 1, "name": "Hellscape Mask", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 322, "max": 359}, "weight": 4.13, "drop": {"chance": 0.6854187123714828, "max_chance": 0.8225024548457793}}, {"quantity": 1, "name": "Archon Crown", "type": "armor:helm", "rarity": "normal", "stats_value_range": {"min": 397, "max": 471}, "weight": 4.07, "drop": {"chance": 0.4771906192555139, "max_chance": 0.5726287431066167}}, {"quantity": 1, "name": "Mystery Shoulders", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.12, "drop": {"chance": 0.6536273572872199, "max_chance": 0.7843528287446638}}, {"quantity": 1, "name": "Star Pauldrons", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 58, "max": 68}, "weight": 4.23, "drop": {"chance": 0.6771435061293691, "max_chance": 0.8125722073552429}}, {"quantity": 1, "name": "Leather Mantle", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 34, "max": 47}, "weight": 6.67, "drop": {"chance": 0.695657081586047, "max_chance": 0.8347884979032564}}, {"quantity": 1, "name": "Shoulder Guards", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 48, "max": 57}, "weight": 6.53, "drop": {"chance": 0.5253283547376337, "max_chance": 0.6303940256851605}}, {"quantity": 1, "name": "Ailettes", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 122, "max": 143}, "weight": 6.81, "drop": {"chance": 0.5458759019831968, "max_chance": 0.6550510823798361}}, {"quantity": 1, "name": "Espaliers", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 240, "max": 252}, "weight": 4.19, "drop": {"chance": 0.5084268014905581, "max_chance": 0.6101121617886697}}, {"quantity": 1, "name": "Warlord Spaulders", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 253, "max": 285}, "weight": 3.44, "drop": {"chance": 0.48903900000839884, "max_chance": 0.5868468000100786}}, {"quantity": 1, "name": "Archon Spaulders", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 353, "max": 419}, "weight": 6.16, "drop": {"chance": 0.660006471085562, "max_chance": 0.7920077653026744}}, {"quantity": 1, "name": "Doom Pauldrons", "type": "armor:pauldrons", "rarity": "normal", "stats_value_range": {"min": 286, "max": 319}, "weight": 3.61, "drop": {"chance": 0.4865073154642638, "max_chance": 0.5838087785571165}}, {"quantity": 1, "name": "Mystery Chest Armor", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.61, "drop": {"chance": 0.5078205380287811, "max_chance": 0.6093846456345373}}, {"quantity": 1, "name": "Cloth Tunic", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.89, "drop": {"chance": 0.4947950033750514, "max_chance": 0.5937540040500617}}, {"quantity": 1, "name": "Leather Doublet", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 18, "max": 20}, "weight": 5.53, "drop": {"chance": 0.5630118693681285, "max_chance": 0.6756142432417542}}, {"quantity": 1, "name": "Jazeraint Mail", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 168, "max": 191}, "weight": 3.68, "drop": {"chance": 0.49970397396353744, "max_chance": 0.599644768756245}}, {"quantity": 1, "name": "Astral Mail", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 270, "max": 284}, "weight": 5.4, "drop": {"chance": 0.6721979821532749, "max_chance": 0.8066375785839298}}, {"quantity": 1, "name": "Warlord Plate", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 285, "max": 321}, "weight": 5.52, "drop": {"chance": 0.6559151136488506, "max_chance": 0.7870981363786207}}, {"quantity": 1, "name": "Archon Armor", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 397, "max": 471}, "weight": 6.43, "drop": {"chance": 0.5623433190612206, "max_chance": 0.6748119828734647}}, {"quantity": 1, "name": "Doom Armor", "type": "armor:chest-armor", "rarity": "normal", "stats_value_range": {"min": 322, "max": 359}, "weight": 2.41, "drop": {"chance": 0.5479506159327518, "max_chance": 0.6575407391193022}}, {"quantity": 1, "name": "Mystery Bracers", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.4, "drop": {"chance": 0.49442577934466053, "max_chance": 0.5933109352135927}}, {"quantity": 1, "name": "Bracers", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 8, "max": 9}, "weight": 5.93, "drop": {"chance": 0.6132339659926099, "max_chance": 0.7358807591911319}}, {"quantity": 1, "name": "Leather Cuffs", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 16, "max": 19}, "weight": 5.84, "drop": {"chance": 0.5795620901934705, "max_chance": 0.6954745082321646}}, {"quantity": 1, "name": "Bindings", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 25, "max": 32}, "weight": 4.34, "drop": {"chance": 0.6440616039089881, "max_chance": 0.7728739246907858}}, {"quantity": 1, "name": "Wristbands", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 76, "max": 89}, "weight": 3.61, "drop": {"chance": 0.4617409267229893, "max_chance": 0.5540891120675872}}, {"quantity": 1, "name": "Armbands", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 150, "max": 157}, "weight": 5.92, "drop": {"chance": 0.6127122343528202, "max_chance": 0.7352546812233842}}, {"quantity": 1, "name": "Warbands", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 158, "max": 178}, "weight": 2.61, "drop": {"chance": 0.5046197484041169, "max_chance": 0.6055436980849404}}, {"quantity": 1, "name": "Armguards", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 179, "max": 199}, "weight": 6.38, "drop": {"chance": 0.6094638064176483, "max_chance": 0.731356567701178}}, {"quantity": 1, "name": "Razorspikes", "type": "armor:bracers", "rarity": "normal", "stats_value_range": {"min": 220, "max": 261}, "weight": 2.23, "drop": {"chance": 0.4715909680034325, "max_chance": 0.565909161604119}}, {"quantity": 1, "name": "Mystery Gloves", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.6, "drop": {"chance": 0.6176826945777061, "max_chance": 0.7412192334932473}}, {"quantity": 1, "name": "Gloves", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 4, "max": 5}, "weight": 6.96, "drop": {"chance": 0.6702271554345794, "max_chance": 0.8042725865214954}}, {"quantity": 1, "name": "Leather Gloves", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 14, "max": 16}, "weight": 2.68, "drop": {"chance": 0.5752553036899761, "max_chance": 0.6903063644279713}}, {"quantity": 1, "name": "Etched Gloves", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 107, "max": 125}, "weight": 6.0, "drop": {"chance": 0.6757039481345347, "max_chance": 0.8108447377614416}}, {"quantity": 1, "name": "Manifers", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 210, "max": 220}, "weight": 5.28, "drop": {"chance": 0.550681508445226, "max_chance": 0.6608178101342712}}, {"quantity": 1, "name": "Warlord Gauntlets", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 221, "max": 249}, "weight": 6.93, "drop": {"chance": 0.49804381190620306, "max_chance": 0.5976525742874437}}, {"quantity": 1, "name": "Archon Gauntlets", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 309, "max": 366}, "weight": 1.68, "drop": {"chance": 0.5212766678026088, "max_chance": 0.6255320013631306}}, {"quantity": 1, "name": "Stranglers", "type": "armor:gloves", "rarity": "normal", "stats_value_range": {"min": 250, "max": 279}, "weight": 5.62, "drop": {"chance": 0.5012070348417075, "max_chance": 0.601448441810049}}, {"quantity": 1, "name": "Mystery Belt", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.57, "drop": {"chance": 0.5116679197947955, "max_chance": 0.6140015037537546}}, {"quantity": 1, "name": "Sash", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.68, "drop": {"chance": 0.6199741745318292, "max_chance": 0.7439690094381951}}, {"quantity": 1, "name": "Cord", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 34, "max": 43}, "weight": 5.33, "drop": {"chance": 0.5448402956632167, "max_chance": 0.65380835479586}}, {"quantity": 1, "name": "Sheath", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 180, "max": 189}, "weight": 2.91, "drop": {"chance": 0.6551738976273851, "max_chance": 0.7862086771528621}}, {"quantity": 1, "name": "Cincture", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 190, "max": 214}, "weight": 6.93, "drop": {"chance": 0.4784400866400306, "max_chance": 0.5741281039680368}}, {"quantity": 1, "name": "Girdle", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 215, "max": 239}, "weight": 1.33, "drop": {"chance": 0.5395431256509415, "max_chance": 0.6474517507811298}}, {"quantity": 1, "name": "High Scabbard", "type": "armor:belt", "rarity": "normal", "stats_value_range": {"min": 265, "max": 314}, "weight": 3.57, "drop": {"chance": 0.5898369570948812, "max_chance": 0.7078043485138574}}, {"quantity": 1, "name": "Mystery Pants", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.59, "drop": {"chance": 0.5362579988631861, "max_chance": 0.6435095986358234}}, {"quantity": 1, "name": "Cloth Pants", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.87, "drop": {"chance": 0.5709691718189588, "max_chance": 0.6851630061827505}}, {"quantity": 1, "name": "Leather Pants", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 18, "max": 20}, "weight": 5.42, "drop": {"chance": 0.6232745818836236, "max_chance": 0.7479294982603484}}, {"quantity": 1, "name": "Poleyns", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 270, "max": 284}, "weight": 1.18, "drop": {"chance": 0.6786384685040258, "max_chance": 0.8143661622048309}}, {"quantity": 1, "name": "Warlord Leg Plates", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 285, "max": 321}, "weight": 3.34, "drop": {"chance": 0.5647433795023287, "max_chance": 0.6776920554027944}}, {"quantity": 1, "name": "Schynbalds", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 322, "max": 359}, "weight": 6.87, "drop": {"chance": 0.6286220529985954, "max_chance": 0.7543464635983145}}, {"quantity": 1, "name": "Archon Faulds", "type": "armor:pants", "rarity": "normal", "stats_value_range": {"min": 397, "max": 471}, "weight": 6.6, "drop": {"chance": 0.4694678713562195, "max_chance": 0.5633614456274634}}, {"quantity": 1, "name": "Mystery Boots", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.67, "drop": {"chance": 0.6806495615789416, "max_chance": 0.8167794738947299}}, {"quantity": 1, "name": "Shoes", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 7, "max": 8}, "weight": 2.96, "drop": {"chance": 0.6090436434168695, "max_chance": 0.7308523721002433}}, {"quantity": 1, "name": "Treads", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 130, "max": 148}, "weight": 6.04, "drop": {"chance": 0.5489643985252425, "max_chance": 0.658757278230291}}, {"quantity": 1, "name": "Astral Greaves", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 210, "max": 220}, "weight": 3.72, "drop": {"chance": 0.6284871422472651, "max_chance": 0.7541845706967181}}, {"quantity": 1, "name": "Warlord Boots", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 221, "max": 249}, "weight": 3.84, "drop": {"chance": 0.6821419896132076, "max_chance": 0.8185703875358491}}, {"quantity": 1, "name": "Doom Treads", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 250, "max": 279}, "weight": 1.73, "drop": {"chance": 0.5112719040008389, "max_chance": 0.6135262848010067}}, {"quantity": 1, "name": "Archon Greaves", "type": "armor:boots", "rarity": "normal", "stats_value_range": {"min": 309, "max": 366}, "weight": 2.9, "drop": {"chance": 0.6731779742200461, "max_chance": 0.8078135690640553}}, {"quantity": 1, "name": "Mystery Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.98, "drop": {"chance": 0.6150216501590211, "max_chance": 0.7380259801908253}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.83, "drop": {"chance": 0.6618624961103571, "max_chance": 0.7942349953324285}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.46, "drop": {"chance": 0.6480151413961446, "max_chance": 0.7776181696753734}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.06, "drop": {"chance": 0.4556231782402865, "max_chance": 0.5467478138883438}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 6.73, "drop": {"chance": 0.484580457457923, "max_chance": 0.5814965489495076}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.53, "drop": {"chance": 0.6071226211619488, "max_chance": 0.7285471453943386}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.56, "drop": {"chance": 0.691946620851978, "max_chance": 0.8303359450223736}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.89, "drop": {"chance": 0.5737795954311855, "max_chance": 0.6885355145174226}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.45, "drop": {"chance": 0.5067579091248434, "max_chance": 0.6081094909498121}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.31, "drop": {"chance": 0.67979295686147, "max_chance": 0.8157515482337641}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.53, "drop": {"chance": 0.5577265721399829, "max_chance": 0.6692718865679794}}, {"quantity": 1, "name": "Mystery Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.87, "drop": {"chance": 0.6487608640883489, "max_chance": 0.7785130369060187}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.62, "drop": {"chance": 0.5174890621702084, "max_chance": 0.6209868746042501}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.51, "drop": {"chance": 0.5519202579754385, "max_chance": 0.6623043095705262}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 3.4, "drop": {"chance": 0.4726550679952678, "max_chance": 0.5671860815943214}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.75, "drop": {"chance": 0.6955648379418162, "max_chance": 0.8346778055301795}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.82, "drop": {"chance": 0.46430035309279116, "max_chance": 0.5571604237113494}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.86, "drop": {"chance": 0.5420044472440702, "max_chance": 0.6504053366928841}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.6, "drop": {"chance": 0.6722649578867977, "max_chance": 0.8067179494641573}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 5.2, "drop": {"chance": 0.639199052423193, "max_chance": 0.7670388629078315}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.8, "drop": {"chance": 0.4684285052377748, "max_chance": 0.5621142062853297}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.27, "drop": {"chance": 0.499393672650234, "max_chance": 0.5992724071802809}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.06, "drop": {"chance": 0.6027309077297822, "max_chance": 0.7232770892757386}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 6.07, "drop": {"chance": 0.461290811035893, "max_chance": 0.5535489732430716}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.78, "drop": {"chance": 0.5247913677613444, "max_chance": 0.6297496413136132}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.32, "drop": {"chance": 0.6787027202438243, "max_chance": 0.8144432642925892}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 4.28, "drop": {"chance": 0.5812496431899826, "max_chance": 0.6974995718279792}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "normal", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.0, "drop": {"chance": 0.6615496126572655, "max_chance": 0.7938595351887187}}]
+[
+  {
+    "quantity": 1,
+    "name": "Mystery Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.24,
+    "drop": { "chance": 0.5976271461804081, "max_chance": 0.7171525754164898 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helm of the Cranial Crustacean",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 21, "max": 24 },
+    "weight": 5.4,
+    "drop": { "chance": 0.5501813437258836, "max_chance": 0.6602176124710603 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 21, "max": 24 },
+    "weight": 4.05,
+    "drop": { "chance": 0.46881700267124105, "max_chance": 0.5625804032054893 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Hood",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 21, "max": 24 },
+    "weight": 6.44,
+    "drop": { "chance": 0.5196764901634326, "max_chance": 0.6236117881961192 }
+  },
+  {
+    "quantity": 1,
+    "name": "Basinet",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 138, "max": 161 },
+    "weight": 6.35,
+    "drop": { "chance": 0.4842089245670627, "max_chance": 0.5810507094804753 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stechhelm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 270, "max": 284 },
+    "weight": 1.62,
+    "drop": { "chance": 0.6414225411292329, "max_chance": 0.7697070493550795 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zischagge",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 285, "max": 321 },
+    "weight": 1.47,
+    "drop": { "chance": 0.6577209561213831, "max_chance": 0.7892651473456598 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellscape Mask",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 322, "max": 359 },
+    "weight": 5.98,
+    "drop": { "chance": 0.6817544999489653, "max_chance": 0.8181053999387584 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Crown",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "stats_value_range": { "min": 397, "max": 471 },
+    "weight": 2.77,
+    "drop": { "chance": 0.5183533565569599, "max_chance": 0.6220240278683519 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Shoulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.34,
+    "drop": { "chance": 0.6931856982289127, "max_chance": 0.8318228378746952 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 58, "max": 68 },
+    "weight": 1.18,
+    "drop": { "chance": 0.5672379680257221, "max_chance": 0.6806855616308666 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 34, "max": 47 },
+    "weight": 4.6,
+    "drop": { "chance": 0.46330545947893914, "max_chance": 0.555966551374727 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Guards",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 48, "max": 57 },
+    "weight": 6.73,
+    "drop": { "chance": 0.6503811212596752, "max_chance": 0.7804573455116102 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ailettes",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 122, "max": 143 },
+    "weight": 5.57,
+    "drop": { "chance": 0.47030159167562363, "max_chance": 0.5643619100107484 }
+  },
+  {
+    "quantity": 1,
+    "name": "Espaliers",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 240, "max": 252 },
+    "weight": 5.07,
+    "drop": { "chance": 0.5440775783841177, "max_chance": 0.6528930940609413 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 253, "max": 285 },
+    "weight": 6.8,
+    "drop": { "chance": 0.626869094360998, "max_chance": 0.7522429132331976 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 353, "max": 419 },
+    "weight": 2.81,
+    "drop": { "chance": 0.5290896028888482, "max_chance": 0.6349075234666178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "stats_value_range": { "min": 286, "max": 319 },
+    "weight": 3.93,
+    "drop": { "chance": 0.6212416557081255, "max_chance": 0.7454899868497507 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Chest Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.81,
+    "drop": { "chance": 0.5369593440482299, "max_chance": 0.6443512128578759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Tunic",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.46,
+    "drop": { "chance": 0.49498356871747096, "max_chance": 0.5939802824609651 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Doublet",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 18, "max": 20 },
+    "weight": 4.31,
+    "drop": { "chance": 0.5631129593468243, "max_chance": 0.6757355512161891 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jazeraint Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 168, "max": 191 },
+    "weight": 4.64,
+    "drop": { "chance": 0.5563652410707063, "max_chance": 0.6676382892848476 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 270, "max": 284 },
+    "weight": 5.59,
+    "drop": { "chance": 0.4593218182988855, "max_chance": 0.5511861819586626 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Plate",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 285, "max": 321 },
+    "weight": 5.66,
+    "drop": { "chance": 0.5387423735609252, "max_chance": 0.6464908482731103 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 397, "max": 471 },
+    "weight": 4.05,
+    "drop": { "chance": 0.5506903680312492, "max_chance": 0.660828441637499 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "stats_value_range": { "min": 322, "max": 359 },
+    "weight": 6.17,
+    "drop": { "chance": 0.6264736098880435, "max_chance": 0.7517683318656522 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.47,
+    "drop": { "chance": 0.5403003992925298, "max_chance": 0.6483604791510358 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 8, "max": 9 },
+    "weight": 3.25,
+    "drop": { "chance": 0.5118380671919378, "max_chance": 0.6142056806303253 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Cuffs",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 16, "max": 19 },
+    "weight": 1.5,
+    "drop": { "chance": 0.6993853431436224, "max_chance": 0.839262411772347 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 25, "max": 32 },
+    "weight": 4.76,
+    "drop": { "chance": 0.6599228428911812, "max_chance": 0.7919074114694175 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 76, "max": 89 },
+    "weight": 6.12,
+    "drop": { "chance": 0.5844563620228138, "max_chance": 0.7013476344273766 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 150, "max": 157 },
+    "weight": 3.64,
+    "drop": { "chance": 0.5830763298162898, "max_chance": 0.6996915957795478 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 158, "max": 178 },
+    "weight": 5.97,
+    "drop": { "chance": 0.47093397342899057, "max_chance": 0.5651207681147887 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armguards",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 179, "max": 199 },
+    "weight": 3.62,
+    "drop": { "chance": 0.5904961659612973, "max_chance": 0.7085953991535567 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razorspikes",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "stats_value_range": { "min": 220, "max": 261 },
+    "weight": 6.38,
+    "drop": { "chance": 0.6651898968792032, "max_chance": 0.7982278762550438 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 3.44,
+    "drop": { "chance": 0.6485092425435725, "max_chance": 0.7782110910522869 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 4, "max": 5 },
+    "weight": 2.82,
+    "drop": { "chance": 0.6066743114244111, "max_chance": 0.7280091737092933 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 14, "max": 16 },
+    "weight": 5.28,
+    "drop": { "chance": 0.5447069275543821, "max_chance": 0.6536483130652585 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 107, "max": 125 },
+    "weight": 4.09,
+    "drop": { "chance": 0.6865619218406351, "max_chance": 0.8238743062087621 }
+  },
+  {
+    "quantity": 1,
+    "name": "Manifers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 210, "max": 220 },
+    "weight": 2.52,
+    "drop": { "chance": 0.5285077055873448, "max_chance": 0.6342092467048138 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 221, "max": 249 },
+    "weight": 3.5,
+    "drop": { "chance": 0.6871869404812972, "max_chance": 0.8246243285775567 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 309, "max": 366 },
+    "weight": 5.16,
+    "drop": { "chance": 0.4739457358957381, "max_chance": 0.5687348830748857 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stranglers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "stats_value_range": { "min": 250, "max": 279 },
+    "weight": 5.36,
+    "drop": { "chance": 0.4535685848534247, "max_chance": 0.5442823018241096 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Belt",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.91,
+    "drop": { "chance": 0.5965351800931014, "max_chance": 0.7158422161117216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sash",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.07,
+    "drop": { "chance": 0.5320359631137087, "max_chance": 0.6384431557364505 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 34, "max": 43 },
+    "weight": 2.88,
+    "drop": { "chance": 0.5278838050208214, "max_chance": 0.6334605660249857 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sheath",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 180, "max": 189 },
+    "weight": 5.11,
+    "drop": { "chance": 0.5031960216193656, "max_chance": 0.6038352259432387 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cincture",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 190, "max": 214 },
+    "weight": 5.27,
+    "drop": { "chance": 0.5789830032816373, "max_chance": 0.6947796039379648 }
+  },
+  {
+    "quantity": 1,
+    "name": "Girdle",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 215, "max": 239 },
+    "weight": 2.53,
+    "drop": { "chance": 0.647519014253694, "max_chance": 0.7770228171044328 }
+  },
+  {
+    "quantity": 1,
+    "name": "High Scabbard",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "stats_value_range": { "min": 265, "max": 314 },
+    "weight": 6.52,
+    "drop": { "chance": 0.5696276717908205, "max_chance": 0.6835532061489846 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 3.59,
+    "drop": { "chance": 0.5142240610363276, "max_chance": 0.617068873243593 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.97,
+    "drop": { "chance": 0.5468293902716317, "max_chance": 0.656195268325958 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 18, "max": 20 },
+    "weight": 4.58,
+    "drop": { "chance": 0.5910628201533885, "max_chance": 0.7092753841840662 }
+  },
+  {
+    "quantity": 1,
+    "name": "Poleyns",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 270, "max": 284 },
+    "weight": 5.25,
+    "drop": { "chance": 0.48628487424338834, "max_chance": 0.5835418490920661 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Leg Plates",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 285, "max": 321 },
+    "weight": 5.84,
+    "drop": { "chance": 0.6841880424948398, "max_chance": 0.8210256509938078 }
+  },
+  {
+    "quantity": 1,
+    "name": "Schynbalds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 322, "max": 359 },
+    "weight": 5.23,
+    "drop": { "chance": 0.6738927702212478, "max_chance": 0.8086713242654974 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Faulds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "stats_value_range": { "min": 397, "max": 471 },
+    "weight": 5.95,
+    "drop": { "chance": 0.6699744525792439, "max_chance": 0.8039693430950927 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.07,
+    "drop": { "chance": 0.6933557576314529, "max_chance": 0.8320269091577435 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoes",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 7, "max": 8 },
+    "weight": 1.4,
+    "drop": { "chance": 0.4708454706885469, "max_chance": 0.5650145648262562 }
+  },
+  {
+    "quantity": 1,
+    "name": "Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 130, "max": 148 },
+    "weight": 1.18,
+    "drop": { "chance": 0.6268627917878857, "max_chance": 0.7522353501454628 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 210, "max": 220 },
+    "weight": 2.65,
+    "drop": { "chance": 0.6989124599716735, "max_chance": 0.8386949519660082 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 221, "max": 249 },
+    "weight": 1.89,
+    "drop": { "chance": 0.6679143888916693, "max_chance": 0.8014972666700032 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 250, "max": 279 },
+    "weight": 3.19,
+    "drop": { "chance": 0.45195459807542093, "max_chance": 0.5423455176905051 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "stats_value_range": { "min": 309, "max": 366 },
+    "weight": 1.56,
+    "drop": { "chance": 0.5360537892431292, "max_chance": 0.6432645470917551 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.68,
+    "drop": { "chance": 0.6306580961458566, "max_chance": 0.7567897153750278 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.29,
+    "drop": { "chance": 0.4721604548587466, "max_chance": 0.5665925458304959 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.18,
+    "drop": { "chance": 0.6487972940309708, "max_chance": 0.7785567528371649 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.32,
+    "drop": { "chance": 0.5282982261593552, "max_chance": 0.6339578713912262 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.78,
+    "drop": { "chance": 0.5282753669458544, "max_chance": 0.6339304403350253 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.18,
+    "drop": { "chance": 0.46760433143657243, "max_chance": 0.5611251977238869 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.9,
+    "drop": { "chance": 0.5839713015786594, "max_chance": 0.7007655618943913 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 6.2,
+    "drop": { "chance": 0.5681573889712104, "max_chance": 0.6817888667654525 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.98,
+    "drop": { "chance": 0.5657958236976053, "max_chance": 0.6789549884371263 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 3.49,
+    "drop": { "chance": 0.6623070306160584, "max_chance": 0.7947684367392701 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.59,
+    "drop": { "chance": 0.5816030591214596, "max_chance": 0.6979236709457515 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.04,
+    "drop": { "chance": 0.5870240918246488, "max_chance": 0.7044289101895785 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 3.34,
+    "drop": { "chance": 0.6950950205357351, "max_chance": 0.8341140246428822 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.49,
+    "drop": { "chance": 0.49880260925239706, "max_chance": 0.5985631311028765 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.88,
+    "drop": { "chance": 0.5584519267659283, "max_chance": 0.6701423121191139 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.97,
+    "drop": { "chance": 0.6483928961714134, "max_chance": 0.7780714754056961 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.72,
+    "drop": { "chance": 0.5823538877342556, "max_chance": 0.6988246652811066 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.72,
+    "drop": { "chance": 0.6324732681273321, "max_chance": 0.7589679217527985 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.56,
+    "drop": { "chance": 0.6346313051621095, "max_chance": 0.7615575661945314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.23,
+    "drop": { "chance": 0.6146435174951541, "max_chance": 0.737572220994185 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.54,
+    "drop": { "chance": 0.47741794870056814, "max_chance": 0.5729015384406818 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.67,
+    "drop": { "chance": 0.6428136349657685, "max_chance": 0.7713763619589222 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.43,
+    "drop": { "chance": 0.6389509593907502, "max_chance": 0.7667411512689002 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.74,
+    "drop": { "chance": 0.5480997142252706, "max_chance": 0.6577196570703248 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 4.67,
+    "drop": { "chance": 0.6496545834026436, "max_chance": 0.7795855000831723 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.4,
+    "drop": { "chance": 0.45215697091150875, "max_chance": 0.5425883650938105 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 5.45,
+    "drop": { "chance": 0.5927956958137275, "max_chance": 0.711354834976473 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 3.96,
+    "drop": { "chance": 0.4722904483763258, "max_chance": 0.566748538051591 }
+  }
+]

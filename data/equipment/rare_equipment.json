@@ -1,1 +1,956 @@
-[{"quantity": 1, "name": "Arming Cap", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 54, "max": 71}, "weight": 1.47, "drop": {"chance": 0.26589376081948957, "max_chance": 0.2924831369014385}}, {"quantity": 1, "name": "Chain Hood", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 63, "max": 72}, "weight": 1.11, "drop": {"chance": 0.267149191501433, "max_chance": 0.2938641106515763}}, {"quantity": 1, "name": "Helmet", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 72, "max": 89}, "weight": 2.48, "drop": {"chance": 0.28480356703565235, "max_chance": 0.3132839237392176}}, {"quantity": 1, "name": "Plated Helm", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 90, "max": 113}, "weight": 1.6, "drop": {"chance": 0.26237872707571613, "max_chance": 0.28861659978328774}}, {"quantity": 1, "name": "Crown", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 114, "max": 137}, "weight": 2.42, "drop": {"chance": 0.2538337546626106, "max_chance": 0.27921713012887167}}, {"quantity": 1, "name": "Klappvisier", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 162, "max": 185}, "weight": 2.38, "drop": {"chance": 0.29469703670785463, "max_chance": 0.3241667403786401}}, {"quantity": 1, "name": "Casque", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 186, "max": 216}, "weight": 1.28, "drop": {"chance": 0.2755390621122795, "max_chance": 0.30309296832350746}}, {"quantity": 1, "name": "Great Helm", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 217, "max": 246}, "weight": 1.15, "drop": {"chance": 0.27675780795315785, "max_chance": 0.30443358874847365}}, {"quantity": 1, "name": "Hounskull", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 247, "max": 269}, "weight": 2.81, "drop": {"chance": 0.2843311488522152, "max_chance": 0.31276426373743677}}, {"quantity": 1, "name": "Sovereign Helm", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 360, "max": 396}, "weight": 2.59, "drop": {"chance": 0.256974965892315, "max_chance": 0.2826724624815465}}, {"quantity": 1, "name": "Rakkisgard Helm", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 472, "max": 659}, "weight": 2.14, "drop": {"chance": 0.2822438252076833, "max_chance": 0.31046820772845163}}, {"quantity": 1, "name": "Ascended Crown", "type": "armor:helm", "rarity": "rare", "stats_value_range": {"min": 660, "max": 759}, "weight": 2.99, "drop": {"chance": 0.2584728658640571, "max_chance": 0.2843201524504628}}, {"quantity": 1, "name": "Amice", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 58, "max": 68}, "weight": 2.58, "drop": {"chance": 0.25076420979259517, "max_chance": 0.27584063077185467}}, {"quantity": 1, "name": "Spaulders", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 69, "max": 79}, "weight": 2.68, "drop": {"chance": 0.2853373981955639, "max_chance": 0.3138711380151203}}, {"quantity": 1, "name": "Shoulder Plates", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 80, "max": 100}, "weight": 2.71, "drop": {"chance": 0.2805049025589249, "max_chance": 0.3085553928148174}}, {"quantity": 1, "name": "Etched Mantle", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 101, "max": 121}, "weight": 2.36, "drop": {"chance": 0.2944394144948336, "max_chance": 0.32388335594431694}}, {"quantity": 1, "name": "Pauldrons", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 144, "max": 164}, "weight": 2.67, "drop": {"chance": 0.25282531404321024, "max_chance": 0.27810784544753125}}, {"quantity": 1, "name": "Sode", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 165, "max": 192}, "weight": 1.48, "drop": {"chance": 0.2889928198856485, "max_chance": 0.31789210187421335}}, {"quantity": 1, "name": "Epaulets", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 193, "max": 219}, "weight": 1.84, "drop": {"chance": 0.283275125338202, "max_chance": 0.3116026378720222}}, {"quantity": 1, "name": "Balor Pauldrons", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 220, "max": 239}, "weight": 2.68, "drop": {"chance": 0.2999784483758897, "max_chance": 0.3299762932134787}}, {"quantity": 1, "name": "Pallium", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 320, "max": 352}, "weight": 2.2, "drop": {"chance": 0.2972755855522021, "max_chance": 0.3270031441074223}}, {"quantity": 1, "name": "Rakkisgard Pauldrons", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 420, "max": 585}, "weight": 2.06, "drop": {"chance": 0.2683453538345034, "max_chance": 0.29517988921795374}}, {"quantity": 1, "name": "Ascended Pauldrons", "type": "armor:pauldrons", "rarity": "rare", "stats_value_range": {"min": 586, "max": 674}, "weight": 1.54, "drop": {"chance": 0.2700535223435487, "max_chance": 0.29705887457790353}}, {"quantity": 1, "name": "Splint Cuirass", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 69, "max": 86}, "weight": 2.68, "drop": {"chance": 0.27166449509654694, "max_chance": 0.29883094460620163}}, {"quantity": 1, "name": "Banded Cuirass", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 78, "max": 107}, "weight": 2.29, "drop": {"chance": 0.2551574202787123, "max_chance": 0.2806731623065835}}, {"quantity": 1, "name": "Plate Mail", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 87, "max": 107}, "weight": 1.34, "drop": {"chance": 0.28190049648276205, "max_chance": 0.31009054613103826}}, {"quantity": 1, "name": "Stygian Harness", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 108, "max": 137}, "weight": 1.85, "drop": {"chance": 0.2506299226636666, "max_chance": 0.2756929149300333}}, {"quantity": 1, "name": "Etched Jacket", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 138, "max": 167}, "weight": 2.02, "drop": {"chance": 0.29516401161827954, "max_chance": 0.3246804127801075}}, {"quantity": 1, "name": "Battle Armor", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 192, "max": 216}, "weight": 2.13, "drop": {"chance": 0.27863391850527686, "max_chance": 0.3064973103558045}}, {"quantity": 1, "name": "Boneweave Hauberk", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 217, "max": 246}, "weight": 1.34, "drop": {"chance": 0.2908741334140638, "max_chance": 0.31996154675547017}}, {"quantity": 1, "name": "Balor Armor", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 247, "max": 269}, "weight": 1.21, "drop": {"chance": 0.2943304483565223, "max_chance": 0.3237634931921745}}, {"quantity": 1, "name": "Sovereign Mail", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 360, "max": 396}, "weight": 1.6, "drop": {"chance": 0.29954866868529995, "max_chance": 0.32950353555382994}}, {"quantity": 1, "name": "Rakkisgard Armor", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 472, "max": 659}, "weight": 2.9, "drop": {"chance": 0.2674038998729955, "max_chance": 0.29414428986029506}}, {"quantity": 1, "name": "Ascended Armor", "type": "armor:chest-armor", "rarity": "rare", "stats_value_range": {"min": 660, "max": 759}, "weight": 2.0, "drop": {"chance": 0.2913433479573144, "max_chance": 0.3204776827530459}}, {"quantity": 1, "name": "Vambraces", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 33, "max": 40}, "weight": 2.16, "drop": {"chance": 0.2744075360108635, "max_chance": 0.3018482896119498}}, {"quantity": 1, "name": "Bracelets", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 41, "max": 49}, "weight": 1.34, "drop": {"chance": 0.27319127152122913, "max_chance": 0.30051039867335205}}, {"quantity": 1, "name": "Mail Bands", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 50, "max": 62}, "weight": 1.54, "drop": {"chance": 0.26410887012446244, "max_chance": 0.2905197571369087}}, {"quantity": 1, "name": "Wristwraps", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 63, "max": 75}, "weight": 1.46, "drop": {"chance": 0.25728157418057945, "max_chance": 0.2830097315986374}}, {"quantity": 1, "name": "Stabilizers", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 90, "max": 102}, "weight": 2.71, "drop": {"chance": 0.29597508795969035, "max_chance": 0.3255725967556594}}, {"quantity": 1, "name": "Wristguards", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 103, "max": 119}, "weight": 1.01, "drop": {"chance": 0.25994301591964736, "max_chance": 0.2859373175116121}}, {"quantity": 1, "name": "Wristplates", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 120, "max": 136}, "weight": 1.29, "drop": {"chance": 0.2858619776635347, "max_chance": 0.3144481754298882}}, {"quantity": 1, "name": "Armwraps", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 137, "max": 149}, "weight": 1.32, "drop": {"chance": 0.2921435429154705, "max_chance": 0.3213578972070176}}, {"quantity": 1, "name": "Armplates", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 200, "max": 219}, "weight": 1.83, "drop": {"chance": 0.2896646934069028, "max_chance": 0.3186311627475931}}, {"quantity": 1, "name": "Rakkisgard Bracers", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 262, "max": 365}, "weight": 1.06, "drop": {"chance": 0.26488210483819513, "max_chance": 0.29137031532201463}}, {"quantity": 1, "name": "Ascended Bracers", "type": "armor:bracers", "rarity": "rare", "stats_value_range": {"min": 366, "max": 421}, "weight": 2.0, "drop": {"chance": 0.2989696539609035, "max_chance": 0.3288666193569939}}, {"quantity": 1, "name": "Chain Gloves", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 42, "max": 55}, "weight": 1.23, "drop": {"chance": 0.2510967528995681, "max_chance": 0.27620642818952496}}, {"quantity": 1, "name": "Splint Mail Gloves", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 49, "max": 56}, "weight": 1.02, "drop": {"chance": 0.2722032004108271, "max_chance": 0.2994235204519098}}, {"quantity": 1, "name": "Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 56, "max": 69}, "weight": 2.32, "drop": {"chance": 0.2852137088175835, "max_chance": 0.3137350796993419}}, {"quantity": 1, "name": "Plated Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 70, "max": 87}, "weight": 1.47, "drop": {"chance": 0.2648451186630795, "max_chance": 0.2913296305293875}}, {"quantity": 1, "name": "Grips", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 88, "max": 106}, "weight": 1.17, "drop": {"chance": 0.25611626090174827, "max_chance": 0.2817278869919231}}, {"quantity": 1, "name": "Vambraces", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 126, "max": 143}, "weight": 1.29, "drop": {"chance": 0.26945444927795054, "max_chance": 0.2963998942057456}}, {"quantity": 1, "name": "Battle Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 144, "max": 168}, "weight": 1.48, "drop": {"chance": 0.29339845052977687, "max_chance": 0.3227382955827546}}, {"quantity": 1, "name": "Boneweave Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 169, "max": 191}, "weight": 2.8, "drop": {"chance": 0.2820828062777492, "max_chance": 0.3102910869055241}}, {"quantity": 1, "name": "Balor Fists", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 192, "max": 209}, "weight": 2.23, "drop": {"chance": 0.2731135965409502, "max_chance": 0.3004249561950452}}, {"quantity": 1, "name": "Sovereign Vambraces", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 280, "max": 308}, "weight": 2.97, "drop": {"chance": 0.2907474625809696, "max_chance": 0.3198222088390666}}, {"quantity": 1, "name": "Rakkisgard Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 367, "max": 512}, "weight": 1.87, "drop": {"chance": 0.2715628379800076, "max_chance": 0.29871912177800836}}, {"quantity": 1, "name": "Ascended Gauntlets", "type": "armor:gloves", "rarity": "rare", "stats_value_range": {"min": 513, "max": 590}, "weight": 1.49, "drop": {"chance": 0.2673526024544505, "max_chance": 0.29408786269989556}}, {"quantity": 1, "name": "Binding Rope", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 44, "max": 53}, "weight": 1.06, "drop": {"chance": 0.28838745857022396, "max_chance": 0.31722620442724636}}, {"quantity": 1, "name": "Chain Belt", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 54, "max": 67}, "weight": 1.63, "drop": {"chance": 0.2839794434429665, "max_chance": 0.31237738778726315}}, {"quantity": 1, "name": "Silk Sash", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 68, "max": 87}, "weight": 1.55, "drop": {"chance": 0.2792428548877988, "max_chance": 0.3071671403765787}}, {"quantity": 1, "name": "Waistwrap", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 88, "max": 107}, "weight": 1.67, "drop": {"chance": 0.25699583070160864, "max_chance": 0.2826954137717695}}, {"quantity": 1, "name": "Strand", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 108, "max": 127}, "weight": 2.71, "drop": {"chance": 0.25091559937994745, "max_chance": 0.2760071593179422}}, {"quantity": 1, "name": "Cupola", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 128, "max": 144}, "weight": 2.83, "drop": {"chance": 0.2833731805807751, "max_chance": 0.3117104986388526}}, {"quantity": 1, "name": "Cinch", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 145, "max": 164}, "weight": 2.49, "drop": {"chance": 0.2806108735278529, "max_chance": 0.3086719608806382}}, {"quantity": 1, "name": "Grasp", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 165, "max": 179}, "weight": 1.94, "drop": {"chance": 0.2833677905160292, "max_chance": 0.31170456956763215}}, {"quantity": 1, "name": "Heaven Strand", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 240, "max": 264}, "weight": 1.54, "drop": {"chance": 0.2631466841471715, "max_chance": 0.28946135256188865}}, {"quantity": 1, "name": "War Belt", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 315, "max": 439}, "weight": 2.9, "drop": {"chance": 0.26290038218827144, "max_chance": 0.2891904204070986}}, {"quantity": 1, "name": "Archon Sash", "type": "armor:belt", "rarity": "rare", "stats_value_range": {"min": 440, "max": 506}, "weight": 1.67, "drop": {"chance": 0.2904258588985184, "max_chance": 0.3194684447883702}}, {"quantity": 1, "name": "Faulds", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 63, "max": 77}, "weight": 1.84, "drop": {"chance": 0.27029785417951974, "max_chance": 0.2973276395974717}}, {"quantity": 1, "name": "Plate Leggings", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 78, "max": 101}, "weight": 2.92, "drop": {"chance": 0.27611283268299497, "max_chance": 0.30372411595129445}}, {"quantity": 1, "name": "Legwraps", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 102, "max": 131}, "weight": 1.76, "drop": {"chance": 0.25320303443884223, "max_chance": 0.27852333788272643}}, {"quantity": 1, "name": "Etched Pants", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 132, "max": 161}, "weight": 1.71, "drop": {"chance": 0.28299738493019705, "max_chance": 0.31129712342321675}}, {"quantity": 1, "name": "Chausses", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 162, "max": 191}, "weight": 1.19, "drop": {"chance": 0.2811119238102657, "max_chance": 0.3092231161912922}}, {"quantity": 1, "name": "Tassets", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 192, "max": 216}, "weight": 2.4, "drop": {"chance": 0.2847405867418889, "max_chance": 0.3132146454160778}}, {"quantity": 1, "name": "Boneweave Faulds", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 217, "max": 246}, "weight": 2.36, "drop": {"chance": 0.25118699404306716, "max_chance": 0.2763056934473739}}, {"quantity": 1, "name": "Leg Guards", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 247, "max": 269}, "weight": 2.96, "drop": {"chance": 0.2703443331528659, "max_chance": 0.2973787664681525}}, {"quantity": 1, "name": "Sovereign Tassets", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 360, "max": 396}, "weight": 1.58, "drop": {"chance": 0.28613151969533995, "max_chance": 0.31474467166487397}}, {"quantity": 1, "name": "Rakkisgard Leg Plates", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 472, "max": 659}, "weight": 2.41, "drop": {"chance": 0.2553193705849252, "max_chance": 0.2808513076434177}}, {"quantity": 1, "name": "Ascended Faulds", "type": "armor:pants", "rarity": "rare", "stats_value_range": {"min": 660, "max": 759}, "weight": 2.59, "drop": {"chance": 0.28775206804439546, "max_chance": 0.316527274848835}}, {"quantity": 1, "name": "Chain Boots", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 44, "max": 57}, "weight": 1.14, "drop": {"chance": 0.2617043301193232, "max_chance": 0.28787476313125554}}, {"quantity": 1, "name": "Sabatons", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 58, "max": 66}, "weight": 1.43, "drop": {"chance": 0.2762964050808228, "max_chance": 0.3039260455889051}}, {"quantity": 1, "name": "Greaves", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 67, "max": 83}, "weight": 2.01, "drop": {"chance": 0.2749710291257072, "max_chance": 0.30246813203827794}}, {"quantity": 1, "name": "Silk Shoes", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 84, "max": 106}, "weight": 2.71, "drop": {"chance": 0.29471546465270015, "max_chance": 0.32418701111797016}}, {"quantity": 1, "name": "Brogans", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 107, "max": 129}, "weight": 1.01, "drop": {"chance": 0.2783459000912632, "max_chance": 0.3061804901003895}}, {"quantity": 1, "name": "Heavy Sabatons", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 149, "max": 168}, "weight": 2.55, "drop": {"chance": 0.2556734785375628, "max_chance": 0.2812408263913191}}, {"quantity": 1, "name": "Battle Greaves", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 169, "max": 191}, "weight": 1.9, "drop": {"chance": 0.2818511796852594, "max_chance": 0.3100362976537854}}, {"quantity": 1, "name": "Balor Treads", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 192, "max": 209}, "weight": 2.91, "drop": {"chance": 0.2974625349398313, "max_chance": 0.32720878843381446}}, {"quantity": 1, "name": "Sovereign Greaves", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 280, "max": 308}, "weight": 2.33, "drop": {"chance": 0.2669721104043577, "max_chance": 0.29366932144479346}}, {"quantity": 1, "name": "Rakkisgard Greaves", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 367, "max": 512}, "weight": 2.49, "drop": {"chance": 0.27401177976151575, "max_chance": 0.3014129577376673}}, {"quantity": 1, "name": "Ascended Greaves", "type": "armor:boots", "rarity": "rare", "stats_value_range": {"min": 513, "max": 590}, "weight": 1.99, "drop": {"chance": 0.2545281829236965, "max_chance": 0.27998100121606617}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.04, "drop": {"chance": 0.2660451301965186, "max_chance": 0.2926496432161705}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.65, "drop": {"chance": 0.2994742375083574, "max_chance": 0.32942166125919314}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.58, "drop": {"chance": 0.25584307181769367, "max_chance": 0.281427378999463}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.98, "drop": {"chance": 0.2590727425532701, "max_chance": 0.28498001680859714}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.02, "drop": {"chance": 0.2512459559904737, "max_chance": 0.2763705515895211}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.51, "drop": {"chance": 0.2846013134649962, "max_chance": 0.3130614448114958}}, {"quantity": 1, "name": "Amulet", "type": "armor:amulet", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.4, "drop": {"chance": 0.2787504566693707, "max_chance": 0.30662550233630775}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.64, "drop": {"chance": 0.2976454996148609, "max_chance": 0.327410049576347}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.61, "drop": {"chance": 0.29074909450161557, "max_chance": 0.3198240039517771}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.36, "drop": {"chance": 0.263530010212718, "max_chance": 0.2898830112339898}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.02, "drop": {"chance": 0.29874821680737706, "max_chance": 0.32862303848811475}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.61, "drop": {"chance": 0.29763407463533204, "max_chance": 0.3273974820988652}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.74, "drop": {"chance": 0.29972126782917496, "max_chance": 0.32969339461209246}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 1.48, "drop": {"chance": 0.2796912632076194, "max_chance": 0.3076603895283813}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.63, "drop": {"chance": 0.2702535818778833, "max_chance": 0.2972789400656716}}, {"quantity": 1, "name": "Ring", "type": "armor:ring", "rarity": "rare", "stats_value_range": {"min": 0, "max": 0}, "weight": 2.48, "drop": {"chance": 0.2905111233359233, "max_chance": 0.31956223566951564}}]
+[
+  {
+    "quantity": 1,
+    "name": "Arming Cap",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 54, "max": 71 },
+    "weight": 1.83,
+    "drop": { "chance": 0.28551239309528675, "max_chance": 0.31406363240481544 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Hood",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 63, "max": 72 },
+    "weight": 2.77,
+    "drop": { "chance": 0.2562670180919593, "max_chance": 0.2818937199011552 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helmet",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 72, "max": 89 },
+    "weight": 2.95,
+    "drop": { "chance": 0.2945095379119643, "max_chance": 0.32396049170316077 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 90, "max": 113 },
+    "weight": 2.53,
+    "drop": { "chance": 0.27960839081473177, "max_chance": 0.30756922989620494 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 114, "max": 137 },
+    "weight": 1.45,
+    "drop": { "chance": 0.26618601593135627, "max_chance": 0.2928046175244919 }
+  },
+  {
+    "quantity": 1,
+    "name": "Klappvisier",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 162, "max": 185 },
+    "weight": 2.48,
+    "drop": { "chance": 0.2799982231998365, "max_chance": 0.3079980455198202 }
+  },
+  {
+    "quantity": 1,
+    "name": "Casque",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 186, "max": 216 },
+    "weight": 2.64,
+    "drop": { "chance": 0.2739832574543123, "max_chance": 0.3013815831997435 }
+  },
+  {
+    "quantity": 1,
+    "name": "Great Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 217, "max": 246 },
+    "weight": 1.1,
+    "drop": { "chance": 0.25386494535168713, "max_chance": 0.27925143988685586 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hounskull",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 247, "max": 269 },
+    "weight": 1.66,
+    "drop": { "chance": 0.27700564233786446, "max_chance": 0.30470620657165093 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 360, "max": 396 },
+    "weight": 2.92,
+    "drop": { "chance": 0.2844357879770435, "max_chance": 0.31287936677474787 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 472, "max": 659 },
+    "weight": 2.49,
+    "drop": { "chance": 0.2838927285151678, "max_chance": 0.31228200136668455 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "stats_value_range": { "min": 660, "max": 759 },
+    "weight": 2.92,
+    "drop": { "chance": 0.251786969678473, "max_chance": 0.27696566664632033 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amice",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 58, "max": 68 },
+    "weight": 1.42,
+    "drop": { "chance": 0.28212410428263673, "max_chance": 0.3103365147109004 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 69, "max": 79 },
+    "weight": 1.21,
+    "drop": { "chance": 0.29221679020957314, "max_chance": 0.32143846923053043 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Plates",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 80, "max": 100 },
+    "weight": 2.6,
+    "drop": { "chance": 0.2685333927184543, "max_chance": 0.2953867319902997 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 101, "max": 121 },
+    "weight": 1.77,
+    "drop": { "chance": 0.2530870234471566, "max_chance": 0.2783957257918723 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 144, "max": 164 },
+    "weight": 1.87,
+    "drop": { "chance": 0.2760899398242328, "max_chance": 0.3036989338066561 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sode",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 165, "max": 192 },
+    "weight": 2.96,
+    "drop": { "chance": 0.25708382625682885, "max_chance": 0.2827922088825117 }
+  },
+  {
+    "quantity": 1,
+    "name": "Epaulets",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 193, "max": 219 },
+    "weight": 2.8,
+    "drop": { "chance": 0.2673161398536227, "max_chance": 0.29404775383898496 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 220, "max": 239 },
+    "weight": 1.03,
+    "drop": { "chance": 0.28829340310073975, "max_chance": 0.3171227434108137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pallium",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 320, "max": 352 },
+    "weight": 2.74,
+    "drop": { "chance": 0.28574490855244394, "max_chance": 0.3143193994076883 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 420, "max": 585 },
+    "weight": 1.07,
+    "drop": { "chance": 0.2511630217855356, "max_chance": 0.27627932396408916 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "stats_value_range": { "min": 586, "max": 674 },
+    "weight": 1.55,
+    "drop": { "chance": 0.28198885428958087, "max_chance": 0.31018773971853897 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 69, "max": 86 },
+    "weight": 1.27,
+    "drop": { "chance": 0.2578659103320791, "max_chance": 0.283652501365287 }
+  },
+  {
+    "quantity": 1,
+    "name": "Banded Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 78, "max": 107 },
+    "weight": 2.89,
+    "drop": { "chance": 0.2836855080961867, "max_chance": 0.3120540589058054 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 87, "max": 107 },
+    "weight": 1.81,
+    "drop": { "chance": 0.2517709056314831, "max_chance": 0.2769479961946314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stygian Harness",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 108, "max": 137 },
+    "weight": 2.0,
+    "drop": { "chance": 0.25637264971273843, "max_chance": 0.28200991468401226 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Jacket",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 138, "max": 167 },
+    "weight": 1.49,
+    "drop": { "chance": 0.26480489094608123, "max_chance": 0.2912853800406894 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 192, "max": 216 },
+    "weight": 2.19,
+    "drop": { "chance": 0.251968653010639, "max_chance": 0.2771655183117029 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Hauberk",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 217, "max": 246 },
+    "weight": 2.65,
+    "drop": { "chance": 0.258721231360839, "max_chance": 0.2845933544969229 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 247, "max": 269 },
+    "weight": 2.38,
+    "drop": { "chance": 0.2664889279411596, "max_chance": 0.29313782073527556 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 360, "max": 396 },
+    "weight": 2.44,
+    "drop": { "chance": 0.2548046612231898, "max_chance": 0.28028512734550876 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 472, "max": 659 },
+    "weight": 1.29,
+    "drop": { "chance": 0.27712681024637525, "max_chance": 0.3048394912710128 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "stats_value_range": { "min": 660, "max": 759 },
+    "weight": 2.79,
+    "drop": { "chance": 0.29940033732365867, "max_chance": 0.32934037105602454 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 33, "max": 40 },
+    "weight": 1.33,
+    "drop": { "chance": 0.265593864872089, "max_chance": 0.2921532513592979 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracelets",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 41, "max": 49 },
+    "weight": 2.26,
+    "drop": { "chance": 0.2676421029606886, "max_chance": 0.2944063132567574 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mail Bands",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 50, "max": 62 },
+    "weight": 1.44,
+    "drop": { "chance": 0.25694592665500027, "max_chance": 0.28264051932050027 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 63, "max": 75 },
+    "weight": 2.66,
+    "drop": { "chance": 0.2905903594837033, "max_chance": 0.31964939543207366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stabilizers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 90, "max": 102 },
+    "weight": 1.45,
+    "drop": { "chance": 0.2722325454502185, "max_chance": 0.29945579999524036 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristguards",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 103, "max": 119 },
+    "weight": 1.99,
+    "drop": { "chance": 0.260659959881786, "max_chance": 0.2867259558699646 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 120, "max": 136 },
+    "weight": 2.43,
+    "drop": { "chance": 0.26988982541974343, "max_chance": 0.2968788079617178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 137, "max": 149 },
+    "weight": 1.88,
+    "drop": { "chance": 0.2924190664081765, "max_chance": 0.32166097304899416 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 200, "max": 219 },
+    "weight": 2.84,
+    "drop": { "chance": 0.2902616450907587, "max_chance": 0.31928780959983455 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 262, "max": 365 },
+    "weight": 2.28,
+    "drop": { "chance": 0.26463779846556706, "max_chance": 0.2911015783121238 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "stats_value_range": { "min": 366, "max": 421 },
+    "weight": 1.6,
+    "drop": { "chance": 0.2833737935364401, "max_chance": 0.3117111728900841 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 42, "max": 55 },
+    "weight": 1.38,
+    "drop": { "chance": 0.2761498952315092, "max_chance": 0.3037648847546601 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Mail Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 49, "max": 56 },
+    "weight": 1.97,
+    "drop": { "chance": 0.2927432076423677, "max_chance": 0.32201752840660447 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 56, "max": 69 },
+    "weight": 1.65,
+    "drop": { "chance": 0.2790257582228769, "max_chance": 0.30692833404516456 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 70, "max": 87 },
+    "weight": 1.29,
+    "drop": { "chance": 0.28778328764942623, "max_chance": 0.31656161641436886 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grips",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 88, "max": 106 },
+    "weight": 2.82,
+    "drop": { "chance": 0.29939572679779436, "max_chance": 0.3293352994775738 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 126, "max": 143 },
+    "weight": 2.67,
+    "drop": { "chance": 0.26664389466108385, "max_chance": 0.29330828412719223 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 144, "max": 168 },
+    "weight": 1.66,
+    "drop": { "chance": 0.2706882682756899, "max_chance": 0.29775709510325893 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 169, "max": 191 },
+    "weight": 1.04,
+    "drop": { "chance": 0.26016822161201514, "max_chance": 0.28618504377321663 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Fists",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 192, "max": 209 },
+    "weight": 2.16,
+    "drop": { "chance": 0.25372158746519496, "max_chance": 0.27909374621171446 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 280, "max": 308 },
+    "weight": 1.34,
+    "drop": { "chance": 0.2956531007119282, "max_chance": 0.325218410783121 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 367, "max": 512 },
+    "weight": 2.15,
+    "drop": { "chance": 0.2688477162583149, "max_chance": 0.29573248788414636 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "stats_value_range": { "min": 513, "max": 590 },
+    "weight": 2.79,
+    "drop": { "chance": 0.29075599288397963, "max_chance": 0.3198315921723776 }
+  },
+  {
+    "quantity": 1,
+    "name": "Binding Rope",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 44, "max": 53 },
+    "weight": 1.77,
+    "drop": { "chance": 0.25646184851914794, "max_chance": 0.2821080333710627 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 54, "max": 67 },
+    "weight": 2.08,
+    "drop": { "chance": 0.28459500141443533, "max_chance": 0.3130545015558789 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 68, "max": 87 },
+    "weight": 1.34,
+    "drop": { "chance": 0.2949390591724033, "max_chance": 0.32443296508964364 }
+  },
+  {
+    "quantity": 1,
+    "name": "Waistwrap",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 88, "max": 107 },
+    "weight": 1.92,
+    "drop": { "chance": 0.2923383296180579, "max_chance": 0.32157216257986365 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 108, "max": 127 },
+    "weight": 1.49,
+    "drop": { "chance": 0.2569133121738625, "max_chance": 0.28260464339124874 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cupola",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 128, "max": 144 },
+    "weight": 2.47,
+    "drop": { "chance": 0.27386132399601987, "max_chance": 0.30124745639562184 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cinch",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 145, "max": 164 },
+    "weight": 2.88,
+    "drop": { "chance": 0.26493319572789886, "max_chance": 0.29142651530068875 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grasp",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 165, "max": 179 },
+    "weight": 1.9,
+    "drop": { "chance": 0.27148581621272244, "max_chance": 0.2986343978339947 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heaven Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 240, "max": 264 },
+    "weight": 1.2,
+    "drop": { "chance": 0.2545262745272693, "max_chance": 0.2799789019799962 }
+  },
+  {
+    "quantity": 1,
+    "name": "War Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 315, "max": 439 },
+    "weight": 1.92,
+    "drop": { "chance": 0.29725119011920786, "max_chance": 0.32697630913112863 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "stats_value_range": { "min": 440, "max": 506 },
+    "weight": 1.01,
+    "drop": { "chance": 0.28779647418839843, "max_chance": 0.31657612160723825 }
+  },
+  {
+    "quantity": 1,
+    "name": "Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 63, "max": 77 },
+    "weight": 2.7,
+    "drop": { "chance": 0.2859852051233972, "max_chance": 0.31458372563573694 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Leggings",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 78, "max": 101 },
+    "weight": 1.03,
+    "drop": { "chance": 0.29727824405538206, "max_chance": 0.3270060684609203 }
+  },
+  {
+    "quantity": 1,
+    "name": "Legwraps",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 102, "max": 131 },
+    "weight": 1.14,
+    "drop": { "chance": 0.2538415147721677, "max_chance": 0.2792256662493845 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Pants",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 132, "max": 161 },
+    "weight": 1.68,
+    "drop": { "chance": 0.2890904849429528, "max_chance": 0.31799953343724807 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chausses",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 162, "max": 191 },
+    "weight": 1.98,
+    "drop": { "chance": 0.25075464723263036, "max_chance": 0.2758301119558934 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 192, "max": 216 },
+    "weight": 1.0,
+    "drop": { "chance": 0.2906825850142748, "max_chance": 0.31975084351570227 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 217, "max": 246 },
+    "weight": 2.42,
+    "drop": { "chance": 0.27712600753901656, "max_chance": 0.3048386082929182 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leg Guards",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 247, "max": 269 },
+    "weight": 2.09,
+    "drop": { "chance": 0.2959879275544855, "max_chance": 0.3255867203099341 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 360, "max": 396 },
+    "weight": 2.16,
+    "drop": { "chance": 0.2690416707468464, "max_chance": 0.295945837821531 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Leg Plates",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 472, "max": 659 },
+    "weight": 1.14,
+    "drop": { "chance": 0.2685562515789937, "max_chance": 0.29541187673689306 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "stats_value_range": { "min": 660, "max": 759 },
+    "weight": 1.46,
+    "drop": { "chance": 0.2896558365614217, "max_chance": 0.31862142021756384 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Boots",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 44, "max": 57 },
+    "weight": 2.06,
+    "drop": { "chance": 0.2825747994938618, "max_chance": 0.3108322794432479 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 58, "max": 66 },
+    "weight": 2.81,
+    "drop": { "chance": 0.27285789697429297, "max_chance": 0.30014368667172225 }
+  },
+  {
+    "quantity": 1,
+    "name": "Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 67, "max": 83 },
+    "weight": 1.48,
+    "drop": { "chance": 0.25959621511620706, "max_chance": 0.2855558366278278 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Shoes",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 84, "max": 106 },
+    "weight": 1.62,
+    "drop": { "chance": 0.28145993424640914, "max_chance": 0.30960592767105005 }
+  },
+  {
+    "quantity": 1,
+    "name": "Brogans",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 107, "max": 129 },
+    "weight": 2.29,
+    "drop": { "chance": 0.2875103406877981, "max_chance": 0.31626137475657795 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heavy Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 149, "max": 168 },
+    "weight": 1.63,
+    "drop": { "chance": 0.2826049247858617, "max_chance": 0.31086541726444783 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 169, "max": 191 },
+    "weight": 1.01,
+    "drop": { "chance": 0.2745623332260646, "max_chance": 0.30201856654867104 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Treads",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 192, "max": 209 },
+    "weight": 1.48,
+    "drop": { "chance": 0.2515262698528692, "max_chance": 0.2766788968381561 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 280, "max": 308 },
+    "weight": 1.95,
+    "drop": { "chance": 0.2988517957891201, "max_chance": 0.3287369753680321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 367, "max": 512 },
+    "weight": 1.69,
+    "drop": { "chance": 0.2505485745149699, "max_chance": 0.2756034319664669 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "stats_value_range": { "min": 513, "max": 590 },
+    "weight": 2.93,
+    "drop": { "chance": 0.2941827512555624, "max_chance": 0.32360102638111865 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.82,
+    "drop": { "chance": 0.2656075610507001, "max_chance": 0.29216831715577013 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.88,
+    "drop": { "chance": 0.2805082636124541, "max_chance": 0.3085590899736995 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.98,
+    "drop": { "chance": 0.2977319392301102, "max_chance": 0.32750513315312124 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.32,
+    "drop": { "chance": 0.2956029729593487, "max_chance": 0.3251632702552835 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.28,
+    "drop": { "chance": 0.2910753230780223, "max_chance": 0.3201828553858245 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.11,
+    "drop": { "chance": 0.2848147409618613, "max_chance": 0.31329621505804744 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.37,
+    "drop": { "chance": 0.269830952961848, "max_chance": 0.2968140482580328 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.91,
+    "drop": { "chance": 0.298040494677726, "max_chance": 0.3278445441454986 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.38,
+    "drop": { "chance": 0.2975480510921772, "max_chance": 0.32730285620139493 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.78,
+    "drop": { "chance": 0.2966948916215249, "max_chance": 0.3263643807836774 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.44,
+    "drop": { "chance": 0.29093043832688115, "max_chance": 0.3200234821595693 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.92,
+    "drop": { "chance": 0.2619374874727335, "max_chance": 0.28813123622000686 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.82,
+    "drop": { "chance": 0.27985847298435007, "max_chance": 0.3078443202827851 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.44,
+    "drop": { "chance": 0.29287466902174286, "max_chance": 0.3221621359239171 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 1.04,
+    "drop": { "chance": 0.27422287226969927, "max_chance": 0.3016451594966692 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "stats_value_range": { "min": 0, "max": 0 },
+    "weight": 2.77,
+    "drop": { "chance": 0.2597828911541685, "max_chance": 0.28576118026958536 }
+  }
+]
