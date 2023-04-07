@@ -1,6 +1,6 @@
 # Seleccion de personaje y nivel
 from typing import List, Dict, Annotated
-from random import randint, random, shuffle, choice
+from random import randint, random, randrange, shuffle, choice
 import json
 from character import Character, MONK
 
@@ -104,7 +104,7 @@ def start_loot(character: Character, origin: str) -> List[Dict]:
 
     selected_items = choose_items_with_weight_calculation(selected_pool)
     dropped_items = apply_drop_chance(selected_items, 0.05)
-    gold = randint(10, 200000)
+    gold = randrange(10000) + 1
     gems = loot_gems(character)
 
     return {"items": dropped_items, "gold": gold, "gems": gems}
@@ -112,23 +112,19 @@ def start_loot(character: Character, origin: str) -> List[Dict]:
 
 def loot_gems(character: Character) -> List[Dict]:
     looted_gems = []
+    max_quantity = 3
+    enabled_categories = ['SQUARE', 'FLAWLESS SQUARE', 'STAR']
 
     if character.level >= 61:
-        enabled_categories = [
-            category for category in GEMS["NORMAL"]["CATEGORY"] if category in ['MARQUISE', 'IMPERIAL']]
-        for _ in range(1, randint(1, 6)):
-            random_type = choice(GEMS["NORMAL"]["TYPES"])
-            random_category = choice(enabled_categories)
-            looted_gems.append(
-                {"type": random_type, "category": random_category, "quantity": 1})
-    else:
-        enabled_categories = [
-            category for category in GEMS["NORMAL"]["CATEGORY"] if category in ['SQUARE', 'FLAWLESS SQUARE', 'STAR']]
-        for _ in range(1, randint(1, 3)):
-            random_type = choice(GEMS["NORMAL"]["TYPES"])
-            random_category = choice(enabled_categories)
-            looted_gems.append(
-                {"type": random_type, "category": random_category, "quantity": 1})
+        max_quantity = 6
+        enabled_categories += ['MARQUISE', 'IMPERIAL']
+
+    for _ in range(randrange(max_quantity) + 1):
+        looted_gems.append({
+            "type": choice(GEMS["NORMAL"]["TYPES"]),
+            "category": choice(enabled_categories),
+            "quantity": 1
+        })
 
     return looted_gems
 
@@ -147,7 +143,7 @@ def build_pool(character: Character, origin: str) -> dict:
     return pool_template
 
 
-monk = Character(level=60, character_class=MONK)
+monk = Character(level=61, character_class=MONK)
 
 looted = start_loot(monk, 'chest.diabolic')
 
