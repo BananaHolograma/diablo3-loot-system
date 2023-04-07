@@ -1,46 +1,3355 @@
 [
   {
     "quantity": 1,
+    "name": "Ashnagarr's Blood Bracer",
+    "type": "armor:bracers",
     "rarity": "legendary",
-    "type": "equipment:orb",
-    "name": "orb of the spinal skeleton",
-    "weight": 1.5,
-    "drop": {
-      "chance": 0.08,
-      "max_chance": 0.13
-    }
+    "value_range": { "min": 16, "max": 19 }
   },
   {
     "quantity": 1,
+    "name": "Gungdo Gear",
+    "type": "armor:bracers",
     "rarity": "legendary",
-    "type": "equipment:one-handed-sword",
-    "name": "sword of the demon hunter dick",
-    "weight": 1,
-    "drop": {
-      "chance": 0.1,
-      "max_chance": 0.15
-    }
+    "value_range": { "min": 41, "max": 49 }
   },
   {
     "quantity": 1,
+    "name": "Cesar's Memento",
+    "type": "armor:bracers",
     "rarity": "legendary",
-    "type": "equipment:two-handed-sword",
-    "name": "the exarian",
-    "weight": 0.5,
-    "drop": {
-      "chance": 0.05,
-      "max_chance": 0.11
-    }
+    "value_range": { "min": 8, "max": 9 }
   },
   {
     "quantity": 1,
+    "name": "Sanguinary Vambraces",
+    "type": "armor:bracers",
     "rarity": "legendary",
-    "type": "equipment:armor",
-    "name": "dark bulletproof",
-    "weight": 0.9,
-    "drop": {
-      "chance": 0.03,
-      "max_chance": 0.042
-    }
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pinto's Pride",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings of the Lesser Gods",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Akkhan's Manacles",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mortick's Brace",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces of Sescheron",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracer of Fury",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warzechian Armguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nemesis Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Custerian Wristguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ancient Parthan Defenders",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Promise of Glory",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wondrous Deflectors",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strongarm Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lacuni Prowlers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Coils of the First Spider",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wraps of Clarity",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kethryes' Splint",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jeram's Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of the First Men",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ranslor's Folly",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lakumba's Ornament",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of Destruction",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skular's Salvation",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gabriel's Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Trag'Oul Coils",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Drakon's Lesson",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Reaper's Wraps",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gelmindor's Marrow Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bonds of C'Lena",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spirit Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leoric's Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pride's Fall",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Broken Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blind Faith",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Deathseer's Cowl",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warhelm of Kassar",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Visage of Gunes",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mask of Scarlet Death",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skull of Resonance",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mempo of Twilight",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Command",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Andariel's Visage",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fate's Vow",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Rule",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Homing Pads",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons of the Skeleton King",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razeth's Volition",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Death Watch Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corpsewhisper Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lefebvre's Soliloquy",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mantle of Channeling",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders of Zakara",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fury of the Ancients",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vile Ward",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Seven Sins",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corruption",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leoric's Crown",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pride's Fall",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Broken Crown",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blind Faith",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Deathseer's Cowl",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warhelm of Kassar",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Visage of Gunes",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mask of Scarlet Death",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skull of Resonance",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mempo of Twilight",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Command",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Andariel's Visage",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fate's Vow",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Rule",
+    "type": "armor:armor",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ashnagarr's Blood Bracer",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gungdo Gear",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cesar's Memento",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sanguinary Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pinto's Pride",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings of the Lesser Gods",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Akkhan's Manacles",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mortick's Brace",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces of Sescheron",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracer of Fury",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warzechian Armguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nemesis Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Custerian Wristguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ancient Parthan Defenders",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Promise of Glory",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wondrous Deflectors",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strongarm Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lacuni Prowlers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Coils of the First Spider",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wraps of Clarity",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kethryes' Splint",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jeram's Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of the First Men",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ranslor's Folly",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lakumba's Ornament",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of Destruction",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skular's Salvation",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gabriel's Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Trag'Oul Coils",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Drakon's Lesson",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Reaper's Wraps",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gelmindor's Marrow Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bonds of C'Lena",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spirit Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leoric's Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pride's Fall",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Broken Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blind Faith",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Deathseer's Cowl",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warhelm of Kassar",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Visage of Gunes",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mask of Scarlet Death",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skull of Resonance",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mempo of Twilight",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Command",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Andariel's Visage",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fate's Vow",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Rule",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Homing Pads",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons of the Skeleton King",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razeth's Volition",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Death Watch Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corpsewhisper Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lefebvre's Soliloquy",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mantle of Channeling",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders of Zakara",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fury of the Ancients",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vile Ward",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Seven Sins",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corruption",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heart of Iron",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 87, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Aquila Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chaingmail",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 138, "max": 167 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shi Mizu's Haori",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cindercoat",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Goldskin",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tyrael's Might",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Robes of the Rydraelm",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bloodsong Mail",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mantle of the Rydraelm",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armor of the Kind Regent",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Requiem Cereplate",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ashnagarr's Blood Bracer",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gungdo Gear",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cesar's Memento",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sanguinary Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pinto's Pride",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings of the Lesser Gods",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Akkhan's Manacles",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mortick's Brace",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces of Sescheron",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracer of Fury",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warzechian Armguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nemesis Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Custerian Wristguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ancient Parthan Defenders",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Promise of Glory",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wondrous Deflectors",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strongarm Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lacuni Prowlers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Coils of the First Spider",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wraps of Clarity",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kethryes' Splint",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jeram's Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of the First Men",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ranslor's Folly",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lakumba's Ornament",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of Destruction",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skular's Salvation",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gabriel's Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Trag'Oul Coils",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Drakon's Lesson",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Reaper's Wraps",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gelmindor's Marrow Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bonds of C'Lena",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spirit Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gloves of Worship",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grasps of Essence",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stone Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "St. Archew's Gage",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Magefist",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pendergrasps",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 88, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Moribund Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gladiator Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Frostburn",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tasker and Theo",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Penders Purchase",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Saffron Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vigilante Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 24, "max": 27 }
+  },
+  {
+    "quantity": 1,
+    "name": "Goldwrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 88, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellcat Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Insatiable Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Binding of the Lost",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Shame of Delsere",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Dayntee's Binding",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kyoshiro's Soul",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sacred Harness",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Quick Draw Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 67 }
+  },
+  {
+    "quantity": 1,
+    "name": "String of Ears",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bakuli Jungle Wraps",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 112, "max": 132 }
+  },
+  {
+    "quantity": 1,
+    "name": "Saffron Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "String of Ears",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fazula's Improbable Chain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hergbrash's Binding",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sebor's Nightmare",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sash of Knives",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Omnislash",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Haunting Girdle",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sebor's Nightmare",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hwoj Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Omryn's Chain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord of the Sherma",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Harrington Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crashing Rain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain of Shadows",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord of the Sherma",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blessed of Haull",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Belt of Transcendence",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Brood of Araneae",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razor Strop",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Angel Hair Braid",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Thundergod's Vigor",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 226, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Angel Hair Braid",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Belt of the Trove",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Witching Hour",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellcat Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jang's Envelopment",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Khassett's Cord of Righteousness",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zoey's Secret",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hunter's Wrath",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fleeting Strap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 440, "max": 506 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pox Faulds",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Death's Bargain",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Golemskin Breeches",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hammer Jammers",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 162, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hexing Pants of Mr. Yan",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Defiler Cuisses",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Swamp Land Waders",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Depth Diggers",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gehennas",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skelon's Deceit",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lut Socks",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 44, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Crudest Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rivera Dancers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Crudest Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Illusory Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boots of Disregard",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boj Anglers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "Irontoe Mudsputters",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bryner's Journey",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fire Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fire Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lost Boys",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Steuart's Greaves",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Steuart's Greaves",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nilfur's Boast",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ice Climbers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Board Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leoric's Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pride's Fall",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Broken Crown",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blind Faith",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Deathseer's Cowl",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warhelm of Kassar",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Visage of Gunes",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mask of Scarlet Death",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skull of Resonance",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mempo of Twilight",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Command",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Andariel's Visage",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fate's Vow",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Helm of Rule",
+    "type": "armor:helm",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Homing Pads",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons of the Skeleton King",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razeth's Volition",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Death Watch Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corpsewhisper Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lefebvre's Soliloquy",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mantle of Channeling",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders of Zakara",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fury of the Ancients",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vile Ward",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Seven Sins",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Corruption",
+    "type": "armor:pauldrons",
+    "rarity": "legendary",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heart of Iron",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 87, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Aquila Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chaingmail",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 138, "max": 167 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shi Mizu's Haori",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cindercoat",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Goldskin",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tyrael's Might",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Robes of the Rydraelm",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bloodsong Mail",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mantle of the Rydraelm",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armor of the Kind Regent",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Requiem Cereplate",
+    "type": "armor:chest-armor",
+    "rarity": "legendary",
+    "value_range": { "min": 51, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ashnagarr's Blood Bracer",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gungdo Gear",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cesar's Memento",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sanguinary Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pinto's Pride",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings of the Lesser Gods",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Akkhan's Manacles",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mortick's Brace",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces of Sescheron",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracer of Fury",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warzechian Armguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nemesis Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Custerian Wristguards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ancient Parthan Defenders",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Promise of Glory",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wondrous Deflectors",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strongarm Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lacuni Prowlers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Coils of the First Spider",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wraps of Clarity",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kethryes' Splint",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jeram's Bracers",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of the First Men",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ranslor's Folly",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lakumba's Ornament",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers of Destruction",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skular's Salvation",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gabriel's Vambraces",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Trag'Oul Coils",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Drakon's Lesson",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Reaper's Wraps",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gelmindor's Marrow Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bonds of C'Lena",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spirit Guards",
+    "type": "armor:bracers",
+    "rarity": "legendary",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gloves of Worship",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grasps of Essence",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stone Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "St. Archew's Gage",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Magefist",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pendergrasps",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 88, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Moribund Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gladiator Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Frostburn",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tasker and Theo",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Penders Purchase",
+    "type": "armor:gloves",
+    "rarity": "legendary",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Saffron Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vigilante Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 24, "max": 27 }
+  },
+  {
+    "quantity": 1,
+    "name": "Goldwrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 88, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellcat Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Insatiable Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Binding of the Lost",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Shame of Delsere",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Dayntee's Binding",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kyoshiro's Soul",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sacred Harness",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Quick Draw Belt",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 54, "max": 67 }
+  },
+  {
+    "quantity": 1,
+    "name": "String of Ears",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bakuli Jungle Wraps",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 112, "max": 132 }
+  },
+  {
+    "quantity": 1,
+    "name": "Saffron Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "String of Ears",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fazula's Improbable Chain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hergbrash's Binding",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sebor's Nightmare",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sash of Knives",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Omnislash",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Haunting Girdle",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sebor's Nightmare",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hwoj Wrap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Omryn's Chain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord of the Sherma",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Harrington Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crashing Rain",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain of Shadows",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord of the Sherma",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Blessed of Haull",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Belt of Transcendence",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Brood of Araneae",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razor Strop",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Angel Hair Braid",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Thundergod's Vigor",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 226, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Angel Hair Braid",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Belt of the Trove",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Witching Hour",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellcat Waistguard",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jang's Envelopment",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Khassett's Cord of Righteousness",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zoey's Secret",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hunter's Wrath",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fleeting Strap",
+    "type": "armor:belt",
+    "rarity": "legendary",
+    "value_range": { "min": 440, "max": 506 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pox Faulds",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Death's Bargain",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Golemskin Breeches",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hammer Jammers",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 162, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hexing Pants of Mr. Yan",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Defiler Cuisses",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 33, "max": 37 }
+  },
+  {
+    "quantity": 1,
+    "name": "Swamp Land Waders",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Depth Diggers",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gehennas",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skelon's Deceit",
+    "type": "armor:pants",
+    "rarity": "legendary",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lut Socks",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 44, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Crudest Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rivera Dancers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Crudest Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Illusory Boots",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boots of Disregard",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boj Anglers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "Irontoe Mudsputters",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bryner's Journey",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fire Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Fire Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lost Boys",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Steuart's Greaves",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Steuart's Greaves",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 30, "max": 34 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nilfur's Boast",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ice Climbers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Board Walkers",
+    "type": "armor:boots",
+    "rarity": "legendary",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellfire Amulet",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Squirt's Necklace",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Moonlight Ward",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Overwhelming Desire",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Golden Gorget of Leoric",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wisdom of Kalan",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Talisman of Aranoch",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Eye of Etlich",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rondal's Locket",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Dovu Energy Trap",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ancestors' Grace",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Countess Julia's Cameo",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakoff's Glass of Life",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Ess of Johan",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Haunt of Vaxo",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Flavor of Time",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Holy Beacon",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Kymbo's Gold",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mara's Kaleidoscope",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ouroboros",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Star of Azkaranth",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Xephirian Amulet",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Johnstone",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Halcyon's Ascent",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Haunted Visions",
+    "type": "armor:amulet",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellfire Ring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellfire Ring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Band of Might",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Circle of Nailuj's Evol",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring of Royal Grandeur",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pandemonium Loop",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Avarice Band",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leoric's Signet",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pandemonium Loop",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Manald Heal",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Broken Promises",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Puzzle Ring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Halo of Karini",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Tall Man's Finger",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rechel's Ring of Larceny",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Arcstone",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Band of the Rue Chambers",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rogar's Huge Stone",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wyrdward",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "The Short Man's Finger",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Lornelle's Sunstone",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Nagelring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Obsidian Ring of the Zodiac",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Justice Lantern",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bul-Kathos's Wedding Band",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Eternal Union",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Krysbin's Sentence",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Halo of Arlyse",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Convention of Elements",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Skull Grasp",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stone of Jordan",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Band of Hollow Whispers",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring of Emptiness",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Krede's Flame",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Elusive Ring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Unity",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Oculus Ring",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Briggs' Wrath",
+    "type": "armor:ring",
+    "rarity": "legendary",
+    "value_range": { "min": 0, "max": 0 }
   }
 ]

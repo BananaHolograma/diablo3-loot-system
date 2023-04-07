@@ -1,46 +1,1773 @@
 [
   {
     "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:bracers",
     "rarity": "rare",
-    "type": "equipment:helm",
-    "name": "rare barbarian helm",
-    "weight": 1,
-    "drop": {
-      "chance": 0.35,
-      "max_chance": 0.45
-    }
+    "value_range": { "min": 33, "max": 40 }
   },
   {
     "quantity": 1,
+    "name": "Bracelets",
+    "type": "armor:bracers",
     "rarity": "rare",
-    "type": "equipment:one-handed-sword",
-    "name": "sword of pytagoras",
-    "weight": 2,
-    "drop": {
-      "chance": 0.285,
-      "max_chance": 0.345
-    }
+    "value_range": { "min": 41, "max": 49 }
   },
   {
     "quantity": 1,
+    "name": "Mail Bands",
+    "type": "armor:bracers",
     "rarity": "rare",
-    "type": "equipment:armor",
-    "name": "yellow armor of the excalibur",
-    "weight": 1,
-    "drop": {
-      "chance": 0.25,
-      "max_chance": 0.31
-    }
+    "value_range": { "min": 50, "max": 62 }
   },
   {
     "quantity": 1,
+    "name": "Wristwraps",
+    "type": "armor:bracers",
     "rarity": "rare",
-    "type": "equipment:two-handed-sword",
-    "name": "butcher hook low profile",
-    "weight": 1.5,
-    "drop": {
-      "chance": 0.3,
-      "max_chance": 0.36
-    }
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stabilizers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 102 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristguards",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 103, "max": 119 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 120, "max": 136 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 137, "max": 149 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 262, "max": 365 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Arming Cap",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Hood",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 72 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helmet",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 113 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 114, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Klappvisier",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 185 }
+  },
+  {
+    "quantity": 1,
+    "name": "Casque",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Great Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hounskull",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amice",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 69, "max": 79 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Plates",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 80, "max": 100 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 101, "max": 121 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sode",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 165, "max": 192 }
+  },
+  {
+    "quantity": 1,
+    "name": "Epaulets",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 193, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 220, "max": 239 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pallium",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 320, "max": 352 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 420, "max": 585 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Arming Cap",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Hood",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 72 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helmet",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Helm",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 113 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crown",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 114, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Klappvisier",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 185 }
+  },
+  {
+    "quantity": 1,
+    "name": "Casque",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Great Helm",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hounskull",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Helm",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Helm",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Crown",
+    "type": "armor:armor",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 33, "max": 40 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracelets",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mail Bands",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 50, "max": 62 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stabilizers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 102 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristguards",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 103, "max": 119 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 120, "max": 136 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 137, "max": 149 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 262, "max": 365 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Arming Cap",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Hood",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 72 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helmet",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 113 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 114, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Klappvisier",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 185 }
+  },
+  {
+    "quantity": 1,
+    "name": "Casque",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Great Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hounskull",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amice",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 69, "max": 79 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Plates",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 80, "max": 100 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 101, "max": 121 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sode",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 165, "max": 192 }
+  },
+  {
+    "quantity": 1,
+    "name": "Epaulets",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 193, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 220, "max": 239 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pallium",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 320, "max": 352 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 420, "max": 585 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 69, "max": 86 }
+  },
+  {
+    "quantity": 1,
+    "name": "Banded Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 78, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 87, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stygian Harness",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 108, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Jacket",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 138, "max": 167 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Hauberk",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 33, "max": 40 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracelets",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mail Bands",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 50, "max": 62 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stabilizers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 102 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristguards",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 103, "max": 119 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 120, "max": 136 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 137, "max": 149 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 262, "max": 365 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Mail Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 49, "max": 56 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 56, "max": 69 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 70, "max": 87 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grips",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 88, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 126, "max": 143 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 144, "max": 168 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 169, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Fists",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 367, "max": 512 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Binding Rope",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 44, "max": 53 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 67 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 68, "max": 87 }
+  },
+  {
+    "quantity": 1,
+    "name": "Waistwrap",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 88, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cupola",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 128, "max": 144 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cinch",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grasp",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heaven Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 240, "max": 264 }
+  },
+  {
+    "quantity": 1,
+    "name": "War Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 315, "max": 439 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 440, "max": 506 }
+  },
+  {
+    "quantity": 1,
+    "name": "Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 77 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Leggings",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 78, "max": 101 }
+  },
+  {
+    "quantity": 1,
+    "name": "Legwraps",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 102, "max": 131 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Pants",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 132, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chausses",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leg Guards",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Leg Plates",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Boots",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 44, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 58, "max": 66 }
+  },
+  {
+    "quantity": 1,
+    "name": "Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 67, "max": 83 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Shoes",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 84, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Brogans",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 107, "max": 129 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heavy Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 149, "max": 168 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 169, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Treads",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 367, "max": 512 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Arming Cap",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 71 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Hood",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 72 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helmet",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 72, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 113 }
+  },
+  {
+    "quantity": 1,
+    "name": "Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 114, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Klappvisier",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 185 }
+  },
+  {
+    "quantity": 1,
+    "name": "Casque",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 186, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Great Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hounskull",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Helm",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Crown",
+    "type": "armor:helm",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amice",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 69, "max": 79 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Plates",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 80, "max": 100 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 101, "max": 121 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 144, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sode",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 165, "max": 192 }
+  },
+  {
+    "quantity": 1,
+    "name": "Epaulets",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 193, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 220, "max": 239 }
+  },
+  {
+    "quantity": 1,
+    "name": "Pallium",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 320, "max": 352 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 420, "max": 585 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "rare",
+    "value_range": { "min": 586, "max": 674 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 69, "max": 86 }
+  },
+  {
+    "quantity": 1,
+    "name": "Banded Cuirass",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 78, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 87, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stygian Harness",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 108, "max": 137 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Jacket",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 138, "max": 167 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Hauberk",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Mail",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Armor",
+    "type": "armor:chest-armor",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 33, "max": 40 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracelets",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 41, "max": 49 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mail Bands",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 50, "max": 62 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 75 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stabilizers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 90, "max": 102 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristguards",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 103, "max": 119 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 120, "max": 136 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armwraps",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 137, "max": 149 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armplates",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 200, "max": 219 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 262, "max": 365 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Bracers",
+    "type": "armor:bracers",
+    "rarity": "rare",
+    "value_range": { "min": 366, "max": 421 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 42, "max": 55 }
+  },
+  {
+    "quantity": 1,
+    "name": "Splint Mail Gloves",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 49, "max": 56 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 56, "max": 69 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plated Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 70, "max": 87 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grips",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 88, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 126, "max": 143 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 144, "max": 168 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 169, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Fists",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Vambraces",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 367, "max": 512 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "rare",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Binding Rope",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 44, "max": 53 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 54, "max": 67 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 68, "max": 87 }
+  },
+  {
+    "quantity": 1,
+    "name": "Waistwrap",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 88, "max": 107 }
+  },
+  {
+    "quantity": 1,
+    "name": "Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 108, "max": 127 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cupola",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 128, "max": 144 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cinch",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 145, "max": 164 }
+  },
+  {
+    "quantity": 1,
+    "name": "Grasp",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 165, "max": 179 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heaven Strand",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 240, "max": 264 }
+  },
+  {
+    "quantity": 1,
+    "name": "War Belt",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 315, "max": 439 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Sash",
+    "type": "armor:belt",
+    "rarity": "rare",
+    "value_range": { "min": 440, "max": 506 }
+  },
+  {
+    "quantity": 1,
+    "name": "Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 63, "max": 77 }
+  },
+  {
+    "quantity": 1,
+    "name": "Plate Leggings",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 78, "max": 101 }
+  },
+  {
+    "quantity": 1,
+    "name": "Legwraps",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 102, "max": 131 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Pants",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 132, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chausses",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 162, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 216 }
+  },
+  {
+    "quantity": 1,
+    "name": "Boneweave Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 217, "max": 246 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leg Guards",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 247, "max": 269 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Tassets",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 360, "max": 396 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Leg Plates",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 472, "max": 659 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Faulds",
+    "type": "armor:pants",
+    "rarity": "rare",
+    "value_range": { "min": 660, "max": 759 }
+  },
+  {
+    "quantity": 1,
+    "name": "Chain Boots",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 44, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 58, "max": 66 }
+  },
+  {
+    "quantity": 1,
+    "name": "Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 67, "max": 83 }
+  },
+  {
+    "quantity": 1,
+    "name": "Silk Shoes",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 84, "max": 106 }
+  },
+  {
+    "quantity": 1,
+    "name": "Brogans",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 107, "max": 129 }
+  },
+  {
+    "quantity": 1,
+    "name": "Heavy Sabatons",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 149, "max": 168 }
+  },
+  {
+    "quantity": 1,
+    "name": "Battle Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 169, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Balor Treads",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 192, "max": 209 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sovereign Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 280, "max": 308 }
+  },
+  {
+    "quantity": 1,
+    "name": "Rakkisgard Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 367, "max": 512 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ascended Greaves",
+    "type": "armor:boots",
+    "rarity": "rare",
+    "value_range": { "min": 513, "max": 590 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "rare",
+    "value_range": { "min": 0, "max": 0 }
   }
 ]

@@ -4,6 +4,16 @@ from random import randint, random, randrange, shuffle, choice
 import json
 from character import Character, MONK
 
+"""
+1. Determinar el pool a utilizar segun el origen
+2. Mergear objetos de conjunto y legendarios propios del personaje elegido (si corresponde)
+3. Aplicar los modificadores segun condiciones (nivel pj, dificultad, tipo de origen, etc)
+4. Ejecutar rolls entre el numero min y maximo que haya resultado teniendo en cuenta las drop chances y weight de cada item en entries
+6. Se seleccionan las entries en base a la propiedad weight con el calculo adecuado
+7. Se aplican los calculos de drop change para los elementos que han sido seleccionados de la loot table
+5. Devolver una estructura json con los entries que han salido para este proceso individual de loot
+"""
+
 # ORIGINS FOR POOL
 CHEST = 'CHEST'
 ENEMY = 'ENEMY'
@@ -51,17 +61,6 @@ AVAILABLE_POOLS['CHEST']['BEAMING']['entries'] = get_random_elements_from_entrie
     RARE_EQUIPMENT.copy()
 AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 2)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(2, 4)) + \
     LEGENDARY_EQUIPMENT.copy()
-
-
-"""
-1. Determinar el pool a utilizar segun el origen
-2. Mergear objetos de conjunto y legendarios propios del personaje elegido (si corresponde)
-3. Aplicar los modificadores segun condiciones (nivel pj, dificultad, tipo de origen, etc)
-4. Ejecutar rolls entre el numero min y maximo que haya resultado teniendo en cuenta las drop chances y weight de cada item en entries
-6. Se seleccionan las entries en base a la propiedad weight con el calculo adecuado
-7. Se aplican los calculos de drop change para los elementos que han sido seleccionados de la loot table
-5. Devolver una estructura json con los entries que han salido para este proceso individual de loot
-"""
 
 
 def choose_items_with_weight_calculation(pool: Dict) -> List[Dict]:
@@ -130,8 +129,8 @@ def loot_gems(character: Character) -> List[Dict]:
 
 
 def build_pool(character: Character, origin: str) -> dict:
-    translated_origin: list[str] = origin.upper().split('.')
     pool_template: dict = AVAILABLE_POOLS.copy()
+    translated_origin: list[str] = origin.upper().split('.')
 
     for key in translated_origin:
         if key in pool_template:

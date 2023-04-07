@@ -1,46 +1,1409 @@
 [
   {
     "quantity": 1,
+    "name": "Mystery Bracers",
+    "type": "armor:bracers",
     "rarity": "normal",
-    "type": "equipment:foot",
-    "name": "sandalias del zara",
-    "weight": 3,
-    "drop": {
-      "chance": 0.55,
-      "max_chance": 0.67
-    }
+    "value_range": { "min": 0, "max": 0 }
   },
   {
     "quantity": 1,
+    "name": "Bracers",
+    "type": "armor:bracers",
     "rarity": "normal",
-    "type": "equipment:one-handed-sword",
-    "name": "dick of the prick",
-    "weight": 4,
-    "drop": {
-      "chance": 0.67,
-      "max_chance": 0.74
-    }
+    "value_range": { "min": 8, "max": 9 }
   },
   {
     "quantity": 1,
+    "name": "Leather Cuffs",
+    "type": "armor:bracers",
     "rarity": "normal",
-    "type": "equipment:two-handed-sword",
-    "name": "The barbarian normal sword",
-    "weight": 2.5,
-    "drop": {
-      "chance": 0.5,
-      "max_chance": 0.65
-    }
+    "value_range": { "min": 16, "max": 19 }
   },
   {
     "quantity": 1,
+    "name": "Bindings",
+    "type": "armor:bracers",
     "rarity": "normal",
-    "type": "equipment:armor",
-    "name": "non bulletproof",
-    "weight": 2,
-    "drop": {
-      "chance": 0.71,
-      "max_chance": 0.82
-    }
+    "value_range": { "min": 25, "max": 32 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 76, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 150, "max": 157 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armguards",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 179, "max": 199 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razorspikes",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helm of the Cranial Crustacean",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Hood",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Basinet",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 138, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stechhelm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zischagge",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellscape Mask",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Crown",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Shoulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 34, "max": 47 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Guards",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 48, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ailettes",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 122, "max": 143 }
+  },
+  {
+    "quantity": 1,
+    "name": "Espaliers",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 253, "max": 285 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Helm",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helm of the Cranial Crustacean",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Helm",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Hood",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Basinet",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 138, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stechhelm",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zischagge",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellscape Mask",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Crown",
+    "type": "armor:armor",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Cuffs",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 25, "max": 32 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 76, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 150, "max": 157 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armguards",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 179, "max": 199 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razorspikes",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helm of the Cranial Crustacean",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Hood",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Basinet",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 138, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stechhelm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zischagge",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellscape Mask",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Crown",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Shoulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 34, "max": 47 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Guards",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 48, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ailettes",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 122, "max": 143 }
+  },
+  {
+    "quantity": 1,
+    "name": "Espaliers",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 253, "max": 285 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Chest Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Tunic",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Doublet",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 18, "max": 20 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jazeraint Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 168, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Plate",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Cuffs",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 25, "max": 32 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 76, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 150, "max": 157 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armguards",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 179, "max": 199 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razorspikes",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 4, "max": 5 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 14, "max": 16 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 107, "max": 125 }
+  },
+  {
+    "quantity": 1,
+    "name": "Manifers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 210, "max": 220 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 221, "max": 249 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stranglers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Belt",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sash",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 34, "max": 43 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sheath",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 180, "max": 189 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cincture",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 190, "max": 214 }
+  },
+  {
+    "quantity": 1,
+    "name": "Girdle",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 215, "max": 239 }
+  },
+  {
+    "quantity": 1,
+    "name": "High Scabbard",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 18, "max": 20 }
+  },
+  {
+    "quantity": 1,
+    "name": "Poleyns",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Leg Plates",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Schynbalds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Faulds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoes",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 7, "max": 8 }
+  },
+  {
+    "quantity": 1,
+    "name": "Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 210, "max": 220 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 221, "max": 249 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Helm of the Cranial Crustacean",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Helm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Hood",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 21, "max": 24 }
+  },
+  {
+    "quantity": 1,
+    "name": "Basinet",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 138, "max": 161 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stechhelm",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Zischagge",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Hellscape Mask",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Crown",
+    "type": "armor:helm",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Shoulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Star Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 58, "max": 68 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Mantle",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 34, "max": 47 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoulder Guards",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 48, "max": 57 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ailettes",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 122, "max": 143 }
+  },
+  {
+    "quantity": 1,
+    "name": "Espaliers",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 240, "max": 252 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 253, "max": 285 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Spaulders",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 353, "max": 419 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Pauldrons",
+    "type": "armor:pauldrons",
+    "rarity": "normal",
+    "value_range": { "min": 286, "max": 319 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Chest Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Tunic",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Doublet",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 18, "max": 20 }
+  },
+  {
+    "quantity": 1,
+    "name": "Jazeraint Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 168, "max": 191 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Mail",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Plate",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Armor",
+    "type": "armor:chest-armor",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bracers",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 8, "max": 9 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Cuffs",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 16, "max": 19 }
+  },
+  {
+    "quantity": 1,
+    "name": "Bindings",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 25, "max": 32 }
+  },
+  {
+    "quantity": 1,
+    "name": "Wristbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 76, "max": 89 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 150, "max": 157 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warbands",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 158, "max": 178 }
+  },
+  {
+    "quantity": 1,
+    "name": "Armguards",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 179, "max": 199 }
+  },
+  {
+    "quantity": 1,
+    "name": "Razorspikes",
+    "type": "armor:bracers",
+    "rarity": "normal",
+    "value_range": { "min": 220, "max": 261 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 4, "max": 5 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 14, "max": 16 }
+  },
+  {
+    "quantity": 1,
+    "name": "Etched Gloves",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 107, "max": 125 }
+  },
+  {
+    "quantity": 1,
+    "name": "Manifers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 210, "max": 220 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 221, "max": 249 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Gauntlets",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Stranglers",
+    "type": "armor:gloves",
+    "rarity": "normal",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Belt",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sash",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cord",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 34, "max": 43 }
+  },
+  {
+    "quantity": 1,
+    "name": "Sheath",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 180, "max": 189 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cincture",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 190, "max": 214 }
+  },
+  {
+    "quantity": 1,
+    "name": "Girdle",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 215, "max": 239 }
+  },
+  {
+    "quantity": 1,
+    "name": "High Scabbard",
+    "type": "armor:belt",
+    "rarity": "normal",
+    "value_range": { "min": 265, "max": 314 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Cloth Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Leather Pants",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 18, "max": 20 }
+  },
+  {
+    "quantity": 1,
+    "name": "Poleyns",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 270, "max": 284 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Leg Plates",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 285, "max": 321 }
+  },
+  {
+    "quantity": 1,
+    "name": "Schynbalds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 322, "max": 359 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Faulds",
+    "type": "armor:pants",
+    "rarity": "normal",
+    "value_range": { "min": 397, "max": 471 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Shoes",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 7, "max": 8 }
+  },
+  {
+    "quantity": 1,
+    "name": "Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 130, "max": 148 }
+  },
+  {
+    "quantity": 1,
+    "name": "Astral Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 210, "max": 220 }
+  },
+  {
+    "quantity": 1,
+    "name": "Warlord Boots",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 221, "max": 249 }
+  },
+  {
+    "quantity": 1,
+    "name": "Doom Treads",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 250, "max": 279 }
+  },
+  {
+    "quantity": 1,
+    "name": "Archon Greaves",
+    "type": "armor:boots",
+    "rarity": "normal",
+    "value_range": { "min": 309, "max": 366 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Amulet",
+    "type": "armor:amulet",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Mystery Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
+  },
+  {
+    "quantity": 1,
+    "name": "Ring",
+    "type": "armor:ring",
+    "rarity": "normal",
+    "value_range": { "min": 0, "max": 0 }
   }
 ]
