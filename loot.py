@@ -1,21 +1,8 @@
 # Seleccion de personaje y nivel
-from typing import TypeVar, List, Dict
-from random import randint, choice, random, shuffle
+from typing import List, Dict, Annotated
+from random import randint, random, shuffle
 import json
-
-# CHARACTER CLASSES
-BARBARIAN = 'barbarian'
-WIZARD = 'wizard'
-NECROMANCER = 'necromancer'
-WITCH_DOCTOR = 'witch doctor'
-DEMON_HUNTER = 'demon hunter'
-CRUSADER = 'crusader'
-MONK = 'monk'
-
-GAME_CLASSES = [
-    BARBARIAN, WIZARD, NECROMANCER, WITCH_DOCTOR, DEMON_HUNTER, CRUSADER,
-    MONK
-]
+from character import Character, MONK
 
 # ORIGINS FOR POOL
 CHEST = 'CHEST'
@@ -36,9 +23,6 @@ with open('data/equipment/magic_equipment.json', 'r') as magic_equipment:
 
 with open('data/equipment/normal_equipment.json', 'r') as normal_equipment:
     NORMAL_EQUIPMENT = json.load(normal_equipment)
-
-LEVEL = TypeVar('LEVEL')
-CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
 
 
 def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
@@ -66,29 +50,6 @@ AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entri
     LEGENDARY_EQUIPMENT.copy()
 
 
-class Character:
-    def __init__(self, level: int = None, character_class: str = None) -> None:
-        self.level: int = self._ensure_level_is_on_valid_range(
-            level) if level is not None else randint(1, 70)
-
-        self.character_class: str = self._ensure_character_class_is_implemented(
-            character_class or choice(GAME_CLASSES))
-
-    def _ensure_level_is_on_valid_range(self, value: LEVEL) -> LEVEL:
-        if (value < 1 or value > 70):
-            raise ValueError(
-                f"The level {value} is not allowed, the system can handle levels between 1 and 70"
-            )
-        return value
-
-    def _ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
-        if value not in GAME_CLASSES:
-            raise ValueError(
-                f"The character class {value} is not implemented on diablo 3")
-
-        return value
-
-
 """
 1. Determinar el pool a utilizar segun el origen
 2. Mergear objetos de conjunto y legendarios propios del personaje elegido (si corresponde)
@@ -109,18 +70,27 @@ def choose_items_with_weight_calculation(pool: Dict) -> List[Dict]:
         for item in pool['entries']:
             probability = item['weight'] / total_weight
 
-            # ¿quitar de la lista para evitar duplicados, o generar duplicados a proposito?
+            # ¿quitar de la lista una vez añadido para evitar duplicados, o generar duplicados a proposito?
             if random() <= probability:
                 result.append(item)
 
     return result
 
 
-def apply_drop_chance(items: List[Dict]) -> List[Dict]:
+def apply_drop_chance(items: List[Dict], modifier: Annotated[float, lambda x: 0.0 <= x <= 1.0] = None) -> List[Dict]:
+    safe_items = items.copy()
     result = []
 
-    for item in items:
-        if random() <= item['drop']['chance']:
+    for item in safe_items:
+        chance = item['drop']['chance']
+        max_chance = item['drop']['max_chance']
+        final_chance = chance
+
+        if modifier is not None:
+            new_chance = chance + modifier
+            final_chance = new_chance if new_chance < max_chance else max_chance
+
+        if random() <= final_chance:
             result.append(item)
 
     return result
@@ -130,7 +100,7 @@ def start_loot(character: Character, origin: str) -> List[Dict]:
     selected_pool: dict = build_pool(character, origin)
 
     selected_items = choose_items_with_weight_calculation(selected_pool)
-    dropped_items = apply_drop_chance(selected_items)
+    dropped_items = apply_drop_chance(selected_items, 0.05)
 
     return dropped_items
 
