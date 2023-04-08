@@ -99,12 +99,15 @@ def apply_drop_chance(items: List[Dict], modifier: Annotated[float, lambda x: 0.
             final_chance = new_chance if new_chance < max_chance else max_chance
 
         if random() <= final_chance:
+            item['stat_value'] = randint(
+                item['stats_value_range']['min'],  item['stats_value_range']['max'])
             result.append(item)
 
     return result
 
 
-def loot_gems(character: Character) -> List[Dict]:
+def loot_gems(character: Character, modifier: Annotated[float, lambda x: 0.0 <= x <= 1.0] = None) -> List[Dict]:
+    available_gems = GAME_ITEMS['GEMS'].copy()
     looted_gems = []
 
     max_quantity = 3
@@ -116,9 +119,15 @@ def loot_gems(character: Character) -> List[Dict]:
 
     for _ in range(randrange(max_quantity) + 1):
         selected_category = choice(enabled_categories)
+        gem_type = available_gems['NORMAL']["CATEGORY"][selected_category]
+        drop_chance = gem_type['drop']['chance']
+        max_chance = gem_type['drop']['max_chance']
 
-        if selected_category in GAME_ITEMS['GEMS']['NORMAL']["CATEGORY"] \
-                and random() <= GAME_ITEMS['GEMS']['NORMAL']["CATEGORY"][selected_category]['drop']['chance']:
+        if modifier is not None:
+            new_chance = drop_chance + modifier
+            drop_chance = new_chance if new_chance < max_chance else max_chance
+
+        if random() <= drop_chance:
             looted_gems.append({
                 "type": choice(GAME_ITEMS['GEMS']["NORMAL"]["TYPES"]),
                 "category": selected_category,
@@ -242,7 +251,8 @@ if __name__ == "__main__":
 Simulate multiple loots for a Diablo 3 character
 EXAMPLES:
     python loot.py --level 61 -c monk
-    python loot.py -l 50 --character_class "witch doctor" # Wrap around quotes to allow whitespaces
+    # Wrap around quotes to allow whitespaces
+    python loot.py -l 50 --character_class "witch doctor"
     python loot.py --level 2 -c wizard --num-simulations 10000
 ''', formatter_class=argparse.RawDescriptionHelpFormatter, epilog='Enjoy the loot!')
 
