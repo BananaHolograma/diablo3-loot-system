@@ -106,6 +106,7 @@ def apply_drop_chance(items: List[Dict], modifier: Annotated[float, lambda x: 0.
 
 def loot_gems(character: Character) -> List[Dict]:
     looted_gems = []
+
     max_quantity = 3
     enabled_categories = ['SQUARE', 'FLAWLESS SQUARE', 'STAR']
 
@@ -114,11 +115,15 @@ def loot_gems(character: Character) -> List[Dict]:
         enabled_categories += ['MARQUISE', 'IMPERIAL']
 
     for _ in range(randrange(max_quantity) + 1):
-        looted_gems.append({
-            "type": choice(GAME_ITEMS['GEMS']["NORMAL"]["TYPES"]),
-            "category": choice(enabled_categories),
-            "quantity": 1
-        })
+        selected_category = choice(enabled_categories)
+
+        if selected_category in GAME_ITEMS['GEMS']['NORMAL']["CATEGORY"] \
+                and random() <= GAME_ITEMS['GEMS']['NORMAL']["CATEGORY"][selected_category]['drop']['chance']:
+            looted_gems.append({
+                "type": choice(GAME_ITEMS['GEMS']["NORMAL"]["TYPES"]),
+                "category": selected_category,
+                "quantity": 1
+            })
 
     return looted_gems
 

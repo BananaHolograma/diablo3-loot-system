@@ -1,17 +1,17 @@
 {
   "NORMAL": {
     "TYPES": ["AMETHYST", "DIAMOND", "EMERALD", "RUBY", "TOPAZ"],
-    "CATEGORY": [
-      "FLAWLESS",
-      "SQUARE",
-      "FLAWLESS SQUARE",
-      "STAR",
-      "IMPERIAL",
-      "MARQUISE",
-      "FLAWLESS IMPERIAL",
-      "ROYAL",
-      "FLAWLESS ROYAL"
-    ]
+    "CATEGORY": {
+      "FLAWLESS": { "drop": { "chance": 0.25, "max_chance": 0.3 } },
+      "SQUARE": { "drop": { "chance": 0.23, "max_chance": 0.27 } },
+      "FLAWLESS SQUARE": { "drop": { "chance": 0.21, "max_chance": 0.24 } },
+      "STAR": { "drop": { "chance": 0.2, "max_chance": 0.22 } },
+      "IMPERIAL": { "drop": { "chance": 0.15, "max_chance": 0.18 } },
+      "MARQUISE": { "drop": { "chance": 0.13, "max_chance": 0.16 } },
+      "FLAWLESS IMPERIAL": { "drop": { "chance": 0.08, "max_chance": 0.1 } },
+      "ROYAL": { "drop": { "chance": 0.02, "max_chance": 0.03 } },
+      "FLAWLESS ROYAL": { "drop": { "chance": 0.01, "max_chance": 0.02 } }
+    }
   },
   "LEGENDARY": null
 }
