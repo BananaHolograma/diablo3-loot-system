@@ -3,7 +3,7 @@
     "NORMAL": {
       "rolls": {
         "min": 1,
-        "max": 6
+        "max": 3
       },
       "entries": [],
       "rules": {
@@ -19,8 +19,8 @@
     },
     "BEAMING": {
       "rolls": {
-        "min": 6,
-        "max": 12
+        "min": 3,
+        "max": 6
       },
       "entries": [],
       "rules": {
@@ -48,8 +48,8 @@
     },
     "DIABOLIC": {
       "rolls": {
-        "min": 10,
-        "max": 15
+        "min": 6,
+        "max": 10
       },
       "entries": [],
       "rules": {

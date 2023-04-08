@@ -2,7 +2,7 @@
 from typing import List, Dict, Annotated
 from random import randint, random, randrange, shuffle, choice
 from character import Character, GAME_CLASSES
-import multiprocessing
+import statistics
 import argparse
 import json
 
@@ -163,25 +163,73 @@ def load_item_entries_based_on_pool_rules(selected_pool: dict) -> List[Dict]:
     return selected_pool
 
 
-def simulate_loot(character: Character, num_simulations: int = 1):
+def simulate_loot(character: Character, num_simulations: int = 1) -> Dict:
     print(
-        f"\n[ INIT ]{yellow} Starting the loot process with a total of {num_simulations} simulations{reset}", end="\n")
-    print(f"{green}[ CHARACTER ] Selected character class {character.character_class.upper()} with level{reset} {blue}{character.level}{reset}", end="\n")
+        f"\n[ INIT ] Starting the loot process with a total of {yellow}{num_simulations} simulations{reset}", end="\n")
+    print(
+        f"\n[ CHARACTER ] Selected character class {yellow}{character.character_class.upper()}{reset} with level {blue}{character.level}{reset}", end="\n")
 
     available_origins = [f"{pool}.{pool_type}".lower() for pool in AVAILABLE_POOLS.keys()
                          for pool_type in AVAILABLE_POOLS[pool].keys()]
 
-    result = []
+    result = {"gold": [], "gems": []}
 
-    for _ in range(1, num_simulations + 1):
+    for index in range(1, num_simulations + 1):
         selected_origin = choice(available_origins)
 
-        print(f"{orange} [{_}] Simulating loot for origin {selected_origin}" if _ <
+        print(f"Simulating loot... [{blue}{index}{reset}/{green}{num_simulations}{reset}]" if index <
               num_simulations else "", end="\r")
 
-        result.append(start_loot(character, selected_origin))
+        looted: dict = start_loot(character, selected_origin)
 
-    print(f"A total of {len(result)} items has been looted")
+        result['gold'].append(looted['gold'])
+
+        for item in looted['items']:
+            if item['rarity'] in result:
+                result[item['rarity']].append(item)
+            else:
+                result[item['rarity']] = [item]
+
+        # Recorrer la otra lista y actualizar los elementos correspondientes
+        for new_gem in looted['gems']:
+            my_actual_gems = set((gem['type'], gem['category'])
+                                 for gem in result['gems'])
+
+            key = (new_gem['type'], new_gem['category'])
+
+            if key in my_actual_gems:
+                # Buscar el elemento correspondiente en my_list1 y actualizar su cantidad
+                for existing_gem in result['gems']:
+                    if existing_gem['type'] == new_gem['type'] and existing_gem['category'] == new_gem['category']:
+                        existing_gem['quantity'] += new_gem['quantity']
+                        break
+            else:
+                result['gems'].append(new_gem)
+
+    return result
+
+
+def show_simulation_result(result: Dict):
+    for gem in sorted(result['gems'], key=lambda x: x['type'], reverse=False):
+        print(
+            f"Han salido un total de {gem['quantity']} {gem['type']} - {gem['category']}")
+
+    print(f"\nLos datos estadísticos globales para la cantidad de oro generada en cada simulacion:", end="\n")
+
+    print("...", end="\n")
+    print("Mean: ", statistics.mean(result['gold']), end="\n")
+    print("Median: ", statistics.median(result['gold']), end="\n")
+    print("Mode: ", statistics.mode(result['gold']), end="\n")
+    print("Variance: ", statistics.variance(result['gold']), end="\n")
+    print("Standard deviation: ", statistics.stdev(result['gold']), end="\n")
+    print("...", end="\n")
+
+    equipment_keys = GAME_ITEMS.keys()
+
+    for key in result.keys():
+        if f"{key}_equipment".upper() in equipment_keys:
+            print(
+                f"A total of {len(result[key])} {key} items has been looted", end="\n")
 
 
 if __name__ == "__main__":
@@ -209,4 +257,4 @@ EXAMPLES:
 
     character = Character(args.level, args.character_class)
 
-    simulate_loot(character, args.num_simulations)
+    show_simulation_result(simulate_loot(character, args.num_simulations))
