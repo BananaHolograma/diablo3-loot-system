@@ -36,7 +36,7 @@ class Character:
         return value
 
     def _ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
-        if value not in GAME_CLASSES:
+        if value.lower() not in GAME_CLASSES:
             raise ValueError(
                 f"The character class {value} is not implemented on diablo 3")
 

@@ -37,3 +37,13 @@ python scrapper/equipment.py
 and it will update the .json files inside data folder except for `loot_table.json` which is the master table and needs to be updated manually.
 
 # Starting a loot
+
+We can start the command line application to simulate an huge amount of loots with multiple origins
+
+```python
+# Make sure you are using the virtual environment before execute it
+source venv/bin/activate
+
+
+python loot.py
+```

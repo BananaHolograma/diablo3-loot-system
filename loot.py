@@ -1,9 +1,9 @@
 # Seleccion de personaje y nivel
 from typing import List, Dict, Any,  Annotated, cast
 from random import randint, random, randrange, shuffle, choice
-from os import path
+from character import Character, GAME_CLASSES
+import argparse
 import json
-from character import Character, MONK
 
 """
 1. Determinar el pool a utilizar segun el origen
@@ -155,8 +155,27 @@ def load_item_entries_based_on_pool_rules(selected_pool: dict) -> List[Dict]:
     return selected_pool
 
 
-monk = Character(level=61, character_class=MONK)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='''
+Simulate multiple loots for a Diablo 3 character
+EXAMPLES:
+    python loot.py --level 61 -c monk
+    python loot.py -l 50 --character_class "witch doctor" # Wrap around quotes to allow whitespaces
+    python loot.py --level 2 -c wizard --num-simulations 10000
+''', formatter_class=argparse.RawDescriptionHelpFormatter, epilog='Enjoy the loot!')
 
-looted = start_loot(monk, 'chest.diabolic')
+    parser.add_argument('-c', '--character_class', type=str, choices=GAME_CLASSES,
+                        help=f"The character class you want to use in the loot process")
+    parser.add_argument('-l', '--level', type=int, choices=range(
+        1, 71), help='The started level for the character (between 1 and 70)', metavar="61")
+    parser.add_argument('-s', '--num-simulations', type=int, default=1,
+                        help='The numbers of simulations to be performed', metavar="100")
+    parser.add_argument('--enabled-origins')
+    parser.add_argument('-v', '--version', action='version',
+                        version='%(prog)s 1.0')
+    args = parser.parse_args()
 
-print(json.dumps(looted, indent=4))
+    if not (args.character_class and args.level) or args.num_simulations < 1:
+        parser.print_help()
+
+    character = Character(args.level, args.character_class)
