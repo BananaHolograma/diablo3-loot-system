@@ -1,6 +1,7 @@
 # Seleccion de personaje y nivel
-from typing import List, Dict, Annotated
+from typing import List, Dict, Any,  Annotated, cast
 from random import randint, random, randrange, shuffle, choice
+from os import path
 import json
 from character import Character, MONK
 
@@ -22,20 +23,25 @@ MAP_EVENT = 'EVENT'
 with open('data/loot_table.json', 'r') as loot_table:
     AVAILABLE_POOLS = json.load(loot_table)
 
+GAME_ITEMS: dict = {}
+
 with open('data/equipment/legendary_equipment.json', 'r') as legendary_equipment:
-    LEGENDARY_EQUIPMENT = json.load(legendary_equipment)
+    GAME_ITEMS['LEGENDARY_EQUIPMENT'] = json.load(legendary_equipment)
 
 with open('data/equipment/rare_equipment.json', 'r') as rare_equipment:
-    RARE_EQUIPMENT = json.load(rare_equipment)
+    GAME_ITEMS['RARE_EQUIPMENT'] = json.load(rare_equipment)
 
 with open('data/equipment/magic_equipment.json', 'r') as magic_equipment:
-    MAGIC_EQUIPMENT = json.load(magic_equipment)
+    GAME_ITEMS['MAGIC_EQUIPMENT'] = json.load(magic_equipment)
 
 with open('data/equipment/normal_equipment.json', 'r') as normal_equipment:
-    NORMAL_EQUIPMENT = json.load(normal_equipment)
+    GAME_ITEMS['NORMAL_EQUIPMENT'] = json.load(normal_equipment)
+
+with open('data/equipment/character_set_equipment.json', 'r') as character_set_equipment:
+    GAME_ITEMS['CHARACTER_SET_EQUIPMENT'] = json.load(character_set_equipment)
 
 with open('data/gems/gems.json', 'r') as gems:
-    GEMS = json.load(gems)
+    GAME_ITEMS['GEMS'] = json.load(gems)
 
 
 def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
@@ -53,14 +59,6 @@ def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[D
         shuffle(safe_entries)
 
         return safe_entries[:amount]
-
-
-AVAILABLE_POOLS['CHEST']['NORMAL']['entries'] = NORMAL_EQUIPMENT.copy(
-) + get_random_elements_from_entries(MAGIC_EQUIPMENT, randint(2, 4)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(1, 2))
-AVAILABLE_POOLS['CHEST']['BEAMING']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 3)) + \
-    RARE_EQUIPMENT.copy()
-AVAILABLE_POOLS['CHEST']['DIABOLIC']['entries'] = get_random_elements_from_entries(AVAILABLE_POOLS['CHEST']['NORMAL']['entries'], randint(1, 2)) + get_random_elements_from_entries(RARE_EQUIPMENT, randint(2, 4)) + \
-    LEGENDARY_EQUIPMENT.copy()
 
 
 def choose_items_with_weight_calculation(pool: Dict) -> List[Dict]:
@@ -98,17 +96,6 @@ def apply_drop_chance(items: List[Dict], modifier: Annotated[float, lambda x: 0.
     return result
 
 
-def start_loot(character: Character, origin: str) -> List[Dict]:
-    selected_pool: dict = build_pool(character, origin)
-
-    selected_items = choose_items_with_weight_calculation(selected_pool)
-    dropped_items = apply_drop_chance(selected_items, 0.05)
-    gold = randrange(10000) + 1
-    gems = loot_gems(character)
-
-    return {"items": dropped_items, "gold": gold, "gems": gems}
-
-
 def loot_gems(character: Character) -> List[Dict]:
     looted_gems = []
     max_quantity = 3
@@ -120,12 +107,23 @@ def loot_gems(character: Character) -> List[Dict]:
 
     for _ in range(randrange(max_quantity) + 1):
         looted_gems.append({
-            "type": choice(GEMS["NORMAL"]["TYPES"]),
+            "type": choice(GAME_ITEMS['GEMS']["NORMAL"]["TYPES"]),
             "category": choice(enabled_categories),
             "quantity": 1
         })
 
     return looted_gems
+
+
+def start_loot(character: Character, origin: str) -> List[Dict]:
+    selected_pool: dict = build_pool(character, origin)
+
+    selected_items = choose_items_with_weight_calculation(selected_pool)
+    dropped_items = apply_drop_chance(selected_items, 0.05)
+    gold = randrange(10000) + 1
+    gems = loot_gems(character)
+
+    return {"items": dropped_items, "gold": gold, "gems": gems}
 
 
 def build_pool(character: Character, origin: str) -> dict:
@@ -139,7 +137,22 @@ def build_pool(character: Character, origin: str) -> dict:
             raise KeyError(
                 f"The access key {key} does not exists in the available pools for the value {origin}")
 
-    return pool_template
+    return load_item_entries_based_on_pool_rules(pool_template)
+
+
+def load_item_entries_based_on_pool_rules(selected_pool: dict) -> List[Dict]:
+    key: str
+    for key in selected_pool['rules'].keys():
+        equipment_rarity = key.strip().upper()
+
+        if equipment_rarity in GAME_ITEMS:
+            items = GAME_ITEMS[equipment_rarity].copy()
+            amount_rule = selected_pool['rules'][key]['amount']
+            shuffle(items)
+
+            selected_pool['entries'] += items[:amount_rule]
+
+    return selected_pool
 
 
 monk = Character(level=61, character_class=MONK)

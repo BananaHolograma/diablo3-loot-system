@@ -13,6 +13,9 @@ base_url: str = "https://us.diablo3.blizzard.com/en-us"
 requests_cache.install_cache(
     backend='filesystem', serializer='json', cache_name='scrapper-cache', expire_after=3600)
 
+CURRENT_DIR = path.dirname(path.abspath(__file__))
+DATA_DIRECTORY = path.join(CURRENT_DIR, '..', 'data', 'equipment')
+
 
 def extract_items_information(base_url: str, category: str):
     item_page = base_url + f"/item/{category}/"
@@ -47,14 +50,11 @@ def extract_items_information(base_url: str, category: str):
             else:
                 result[rarity] = [item_build]
 
-        current_dir = path.dirname(path.abspath(__file__))
-        data_directory = path.join(current_dir, '..', 'data', 'equipment')
-
         for rarity in result.keys():
             equipment_filename = f"{rarity}_equipment.json"
 
-            if path.exists(f"{data_directory}/{equipment_filename}"):
-                with open(f"{data_directory}/{equipment_filename}", 'r+') as existing_equipment_file:
+            if path.exists(f"{DATA_DIRECTORY}/{equipment_filename}"):
+                with open(f"{DATA_DIRECTORY}/{equipment_filename}", 'r+') as existing_equipment_file:
                     try:
                         actual_content = load(existing_equipment_file)
                     except JSONDecodeError:
@@ -68,7 +68,7 @@ def extract_items_information(base_url: str, category: str):
                     dump(actual_content +
                          result[rarity], existing_equipment_file)
             else:
-                with open(f"{data_directory}/{equipment_filename}", 'w') as equipment_file:
+                with open(f"{DATA_DIRECTORY}/{equipment_filename}", 'w') as equipment_file:
                     dump(result[rarity], equipment_file)
 
     except requests.exceptions.HTTPError as error:
@@ -142,13 +142,11 @@ def generate_drop_chance_based_on_rarity(rarity: str) -> dict:
 
 
 def extract_equipment_information():
-    current_dir = path.dirname(path.abspath(__file__))
-    data_directory = path.join(current_dir, '..', 'data', 'equipment')
 
-    if path.exists(data_directory):
-        rmtree(data_directory)
+    if path.exists(DATA_DIRECTORY):
+        rmtree(DATA_DIRECTORY)
 
-    makedirs(data_directory, exist_ok=True)
+    makedirs(DATA_DIRECTORY, exist_ok=True)
 
     for equipment in ['helm', 'pauldrons', 'chest-armor', 'bracers', 'gloves', 'belt', 'pants', 'boots', 'amulet', 'ring']:
         print(f"Extracting data for {equipment}...")
