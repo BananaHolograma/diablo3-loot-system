@@ -5,9 +5,11 @@
     <p align="center" style="font-style:italic;"><em>Image generated with Stable-Diffusion</em></p>
 </p>
 
-> The information for the equipment contained in this repository has been extracted from an official source. All rights to the data belong to [Blizzard](https://us.diablo3.blizzard.com/en-us/). This repository is provided for informational purposes only and should not be considered an official source of information. We are not responsible for any inaccuracies or errors in the data provided here. Please refer to the official source for updated and accurate information.
+> The information for the equipment contained in this repository has been extracted from an official source. All rights to the data belong to [Blizzard](https://us.diablo3.blizzard.com/en-us/). This repository is provided for educational purposes only and should not be considered an official source of information. We are not responsible for any inaccuracies or errors in the data provided here. Please refer to the official source for updated and accurate information.
 
 # Getting started
+
+I used [this document](https://learn.microsoft.com/en-us/minecraft/creator/documents/introductiontoloottables) as reference to start thinking around the loot table.
 
 ## Python virtual env
 
@@ -38,12 +40,14 @@ and it will update the .json files inside data folder except for `loot_table.jso
 
 # Starting a loot
 
-We can start the command line application to simulate an huge amount of loots with multiple origins
+We can customize the inputs to generate loots for differente characters, levels and the number of simulations to made
 
 ```python
 # Make sure you are using the virtual environment before execute it
 source venv/bin/activate
 
-
-python loot.py
+# Examples
+(venv) ➜ python loot.py --level 61 -c monk
+(venv) ➜ python loot.py -l 50 --character_class "witch doctor" # Wrap around quotes to allow whitespaces
+(venv) ➜ python loot.py --level 2 -c wizard --num-simulations 10000
 ```

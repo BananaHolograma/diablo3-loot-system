@@ -1,7 +1,8 @@
 # Seleccion de personaje y nivel
-from typing import List, Dict, Any,  Annotated, cast
+from typing import List, Dict, Annotated
 from random import randint, random, randrange, shuffle, choice
 from character import Character, GAME_CLASSES
+import multiprocessing
 import argparse
 import json
 
@@ -14,6 +15,13 @@ import json
 7. Se aplican los calculos de drop change para los elementos que han sido seleccionados de la loot table
 5. Devolver una estructura json con los entries que han salido para este proceso individual de loot
 """
+# ANSI ESCAPE CODE COLOURS
+green = '\033[32m'
+orange = '\033[33m'
+blue = '\033[34m'
+red = '\033[31m'
+yellow = '\033[33m'
+reset = '\033[0m'
 
 # ORIGINS FOR POOL
 CHEST = 'CHEST'
@@ -155,6 +163,27 @@ def load_item_entries_based_on_pool_rules(selected_pool: dict) -> List[Dict]:
     return selected_pool
 
 
+def simulate_loot(character: Character, num_simulations: int = 1):
+    print(
+        f"\n[ INIT ]{yellow} Starting the loot process with a total of {num_simulations} simulations{reset}", end="\n")
+    print(f"{green}[ CHARACTER ] Selected character class {character.character_class.upper()} with level{reset} {blue}{character.level}{reset}", end="\n")
+
+    available_origins = [f"{pool}.{pool_type}".lower() for pool in AVAILABLE_POOLS.keys()
+                         for pool_type in AVAILABLE_POOLS[pool].keys()]
+
+    result = []
+
+    for _ in range(1, num_simulations + 1):
+        selected_origin = choice(available_origins)
+
+        print(f"{orange} [{_}] Simulating loot for origin {selected_origin}" if _ <
+              num_simulations else "", end="\r")
+
+        result.append(start_loot(character, selected_origin))
+
+    print(f"A total of {len(result)} items has been looted")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='''
 Simulate multiple loots for a Diablo 3 character
@@ -179,3 +208,5 @@ EXAMPLES:
         parser.print_help()
 
     character = Character(args.level, args.character_class)
+
+    simulate_loot(character, args.num_simulations)
