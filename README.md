@@ -51,3 +51,5 @@ source venv/bin/activate
 (venv) ➜ python loot.py -l 50 --character_class "witch doctor" # Wrap around quotes to allow whitespaces
 (venv) ➜ python loot.py --level 2 -c wizard --num-simulations 10000
 ```
+
+![loot.py](/assets/loot.gif)

@@ -1,10 +1,10 @@
 # Seleccion de personaje y nivel
-from typing import List, Dict, Annotated
-from random import randint, random, randrange, shuffle, choice
-from character import Character, GAME_CLASSES
 import statistics
 import argparse
 import json
+from typing import List, Dict, Annotated
+from random import randint, random, randrange, shuffle, choice
+from character import Character, GAME_CLASSES
 
 """
 1. Determinar el pool a utilizar segun el origen
@@ -55,29 +55,12 @@ with open('data/gems/gems.json', 'r') as gems:
     GAME_ITEMS['GEMS'] = json.load(gems)
 
 
-def get_random_elements_from_entries(entries: List[Dict], amount: int) -> List[Dict]:
-    max_entries = len(entries)
-
-    if amount < 0:
-        raise ValueError(
-            "The value for parameter amount must be greater than zero")
-    elif amount > max_entries:
-        raise ValueError(
-            f"The amount {amount} is more than the total items on the list {max_entries}")
-
-    else:
-        safe_entries = entries.copy()
-        shuffle(safe_entries)
-
-        return safe_entries[:amount]
-
-
 def choose_items_with_weight_calculation(pool: Dict) -> List[Dict]:
     number_of_rolls = randint(pool['rolls']['min'], pool['rolls']['max']) + 1
     total_weight = sum([entry['weight'] for entry in pool['entries']])
     result = []
 
-    for _ in range(0, number_of_rolls):
+    for _ in range(number_of_rolls):
         for item in pool['entries']:
             probability = item['weight'] / total_weight
 
@@ -297,8 +280,7 @@ EXAMPLES:
 
     character = Character(args.level, args.character_class)
 
-    simulation_result = simulate_loot(
-        character, args.num_simulations)
+    simulation_result = simulate_loot(character, args.num_simulations)
     show_simulation_result(character, simulation_result)
 
     if args.output:
