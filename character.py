@@ -1,5 +1,5 @@
 from random import randint, choice
-from typing import TypeVar, Annotated
+from typing import Annotated
 
 # CHARACTER CLASSES
 BARBARIAN = 'barbarian'
@@ -14,8 +14,6 @@ GAME_CLASSES = [
     BARBARIAN, WIZARD, NECROMANCER, WITCH_DOCTOR, DEMON_HUNTER, CRUSADER,
     MONK
 ]
-
-CHARACTER_CLASS = TypeVar('CHARACTER_CLASS')
 
 
 class Character:
@@ -35,7 +33,7 @@ class Character:
             )
         return value
 
-    def _ensure_character_class_is_implemented(self, value: CHARACTER_CLASS) -> CHARACTER_CLASS:
+    def _ensure_character_class_is_implemented(self, value: str) -> str:
         if value.lower() not in GAME_CLASSES:
             raise ValueError(
                 f"The character class {value} is not implemented on diablo 3")

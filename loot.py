@@ -17,10 +17,13 @@ import json
 """
 # ANSI ESCAPE CODE COLOURS
 green = '\033[32m'
-orange = '\033[33m'
+orange = '\033[38;5;208m'
 blue = '\033[34m'
 red = '\033[31m'
 yellow = '\033[33m'
+purple = '\033[1;35m'
+cyan = '\033[1;36m'
+gray = '\033[1;37m'
 reset = '\033[0m'
 
 # ORIGINS FOR POOL
@@ -111,11 +114,12 @@ def loot_gems(character: Character, modifier: Annotated[float, lambda x: 0.0 <= 
     looted_gems = []
 
     max_quantity = 3
-    enabled_categories = ['SQUARE', 'FLAWLESS SQUARE', 'STAR']
 
     if character.level >= 61:
         max_quantity = 6
-        enabled_categories += ['MARQUISE', 'IMPERIAL']
+
+    enabled_categories = [category for category in available_gems['NORMAL']['CATEGORY'].keys(
+    ) if character.level >= available_gems['NORMAL']['CATEGORY'][category]['drop']['min_level']]
 
     for _ in range(randrange(max_quantity) + 1):
         selected_category = choice(enabled_categories)
@@ -197,6 +201,7 @@ def simulate_loot(character: Character, num_simulations: int = 1) -> Dict:
         looted: dict = start_loot(character, selected_origin)
 
         result['gold'].append(looted['gold'])
+        character.gold += looted['gold']
 
         for item in looted['items']:
             if item['rarity'] in result:
@@ -223,12 +228,30 @@ def simulate_loot(character: Character, num_simulations: int = 1) -> Dict:
     return result
 
 
-def show_simulation_result(result: Dict):
+def show_simulation_result(character: Character, result: Dict):
+    gem_colors = {
+        "AMETHYST": purple,
+        "DIAMOND": cyan,
+        "EMERALD": green,
+        "RUBY": red,
+        "TOPAZ": yellow
+    }
+
+    equipment_rarity_colors = {
+        "legendary": orange,
+        "character_set": green,
+        "magic": blue,
+        "rare": yellow,
+        "normal": gray
+    }
+
     for gem in sorted(result['gems'], key=lambda x: x['type'], reverse=False):
         print(
-            f"Han salido un total de {gem['quantity']} {gem['type']} - {gem['category']}")
+            f"A total of {gem['quantity']} {gem_colors[gem['type']]}{gem['type']} - {gem['category']}{reset} have come out")
 
-    print(f"\nLos datos estadísticos globales para la cantidad de oro generada en cada simulacion:", end="\n")
+    print(f"\nThe global statistical data for the amount of gold generated in each simulation:", end="\n")
+    print(
+        f"Total gold looted: {yellow}{format(character.gold, ',d')}{reset}", end="\n")
 
     print("...", end="\n")
     print("Mean: ", statistics.mean(result['gold']), end="\n")
@@ -243,7 +266,7 @@ def show_simulation_result(result: Dict):
     for key in result.keys():
         if f"{key}_equipment".upper() in equipment_keys:
             print(
-                f"A total of {len(result[key])} {key} items has been looted", end="\n")
+                f"A total of {len(result[key])} {equipment_rarity_colors[key]}{key}{reset} items has been looted", end="\n")
 
 
 if __name__ == "__main__":
@@ -262,6 +285,8 @@ EXAMPLES:
         1, 71), help='The started level for the character (between 1 and 70)', metavar="61")
     parser.add_argument('-s', '--num-simulations', type=int, default=1,
                         help='The numbers of simulations to be performed', metavar="100")
+    parser.add_argument('-o', '--output', type=str, default=None,
+                        help="Select a filepath to output the results in .json format")
     parser.add_argument('--enabled-origins')
     parser.add_argument('-v', '--version', action='version',
                         version='%(prog)s 1.0')
@@ -272,4 +297,10 @@ EXAMPLES:
 
     character = Character(args.level, args.character_class)
 
-    show_simulation_result(simulate_loot(character, args.num_simulations))
+    simulation_result = simulate_loot(
+        character, args.num_simulations)
+    show_simulation_result(character, simulation_result)
+
+    if args.output:
+        with open(args.output, 'w') as results_file:
+            json.dump(simulation_result, results_file)

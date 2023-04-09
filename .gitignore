@@ -3,6 +3,7 @@
 
 scrapper-cache
 *.sqlite
+*.json
 .vscode
 ### Python ###
 # Byte-compiled / optimized / DLL files
