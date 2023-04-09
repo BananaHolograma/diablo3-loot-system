@@ -274,9 +274,9 @@ if __name__ == "__main__":
 Simulate multiple loots for a Diablo 3 character
 EXAMPLES:
     python loot.py --level 61 -c monk
-    # Wrap around quotes to allow whitespaces
-    python loot.py -l 50 --character_class "witch doctor"
+    python loot.py -l 50 --character_class "witch doctor"  # Wrap around quotes to allow whitespaces
     python loot.py --level 2 -c wizard --num-simulations 10000
+    python loot.py --level 70 -c barbarian --num-simulations 500 --output "dist/result.json"
 ''', formatter_class=argparse.RawDescriptionHelpFormatter, epilog='Enjoy the loot!')
 
     parser.add_argument('-c', '--character_class', type=str, choices=GAME_CLASSES,
