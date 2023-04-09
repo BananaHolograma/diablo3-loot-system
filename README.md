@@ -28,6 +28,34 @@ python -m venv venv && source venv/bin/activate
 - The `scrapper folder`, where the real game items from Diablo 3 official website are extracted for subsequent processing in json files.
 - The data folder contains all the information about the items that the loot will work with, as well as the master table `loot_table.json` that defines the generation rules.
 
+### Help
+
+```bash
+usage: loot.py [-h] [-c {barbarian,wizard,necromancer,witch doctor,demon hunter,crusader,monk}] [-l 61] [-s 100] [-o OUTPUT]
+               [--enabled-origins ENABLED_ORIGINS] [-v]
+
+Simulate multiple loots for a Diablo 3 character
+EXAMPLES:
+    python loot.py --level 61 -c monk
+    python loot.py -l 50 --character_class "witch doctor"  # Wrap around quotes to allow whitespaces
+    python loot.py --level 2 -c wizard --num-simulations 10000
+    python loot.py --level 70 -c barbarian --num-simulations 500 --output "dist/result.json"
+
+options:
+  -h, --help            show this help message and exit
+  -c {barbarian,wizard,necromancer,witch doctor,demon hunter,crusader,monk}, --character_class {barbarian,wizard,necromancer,witch doctor,demon hunter,crusader,monk}
+                        The character class you want to use in the loot process
+  -l 61, --level 61     The started level for the character (between 1 and 70)
+  -s 100, --num-simulations 100
+                        The numbers of simulations to be performed
+  -o OUTPUT, --output OUTPUT
+                        Select a filepath to output the results in .json format
+  --enabled-origins ENABLED_ORIGINS
+  -v, --version         show program's version number and exit
+
+Enjoy the loot!
+```
+
 ## Update the equipment .json files
 
 If you want to update the equipment list, simply run:
