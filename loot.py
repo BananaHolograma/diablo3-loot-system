@@ -1,10 +1,10 @@
 # Seleccion de personaje y nivel
+from character import Character, GAME_CLASSES
+from random import randint, random, randrange, shuffle, choice
+from typing import List, Dict, Annotated
 import statistics
 import argparse
 import json
-from typing import List, Dict, Annotated
-from random import randint, random, randrange, shuffle, choice
-from character import Character, GAME_CLASSES
 
 """
 1. Determinar el pool a utilizar segun el origen
